@@ -697,7 +697,7 @@
     "name": "Barbell Back Squat",
     "type": "legs",
     "measurement": "weighted",
-    "alias": ["back squat", "barbell squat", "squat"],
+    "alias": ["back squat", "barbell squat", "squat", "squat (barbell)"],
     "reps": 5,
     "sets": 5,
     "weight": 60,
