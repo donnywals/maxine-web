@@ -5,7 +5,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/3_4_sit_up/3_4_sit_up.m3u8"
   },
   {
@@ -23,7 +23,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 12,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/45_degree_bycicle_twisting_crunch/45_degree_bycicle_twisting_crunch.m3u8"
   },
   {
@@ -32,7 +32,7 @@
     "name" : "90 To 90 Stretch",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 2,
-    "type" : "core",
+    "type" : "mobility",
     "video" : "/90_to_90_stretch/90_to_90_stretch.m3u8"
   },
   {
@@ -51,7 +51,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/ab_mat_sit_up/ab_mat_sit_up.m3u8"
   },
   {
@@ -60,7 +60,7 @@
     "name" : "AB Wheel Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/ab_wheel_plank/ab_wheel_plank.m3u8"
   },
   {
@@ -78,7 +78,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 12,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/abdominal_crunches/abdominal_crunches.m3u8"
   },
   {
@@ -87,7 +87,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/abdominal_crunches_machine/abdominal_crunches_machine.m3u8",
     "weight" : 20
   },
@@ -107,7 +107,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 12,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/air_twisting_crunch/air_twisting_crunch.m3u8"
   },
   {
@@ -136,7 +136,7 @@
     "name" : "Alternate Leg Raise From Reverse Plank Position 1",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/alternate_leg_raise_from_reverse_plank_position_1/alternate_leg_raise_from_reverse_plank_position_1.m3u8"
   },
   {
@@ -145,7 +145,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 12,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/alternate_oblique_crunch/alternate_oblique_crunch.m3u8"
   },
   {
@@ -238,7 +238,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/assisted_sit_up/assisted_sit_up.m3u8"
   },
   {
@@ -256,7 +256,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/ball_sit_up/ball_sit_up.m3u8"
   },
   {
@@ -295,7 +295,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/band_bicycle_crunch/band_bicycle_crunch.m3u8",
     "weight" : 10
   },
@@ -475,7 +475,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/band_keeling_crunch/band_keeling_crunch.m3u8",
     "weight" : 10
   },
@@ -595,7 +595,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "biceps",
+    "type" : "forearms",
     "video" : "/band_wrist_curl/band_wrist_curl.m3u8",
     "weight" : 10
   },
@@ -620,6 +620,9 @@
     "weight" : 60
   },
   {
+    "alias" : [
+      "Bench press"
+    ],
     "measurement" : "weighted",
     "name" : "Barbell Bench Press",
     "note" : "Set shoulders back, control the lowering phase, and press to lockout while keeping wrists stacked and elbows controlled.",
@@ -835,7 +838,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "biceps",
+    "type" : "forearms",
     "video" : "/barbell_palm_down_wrist_curl_over_a_bench/barbell_palm_down_wrist_curl_over_a_bench.m3u8",
     "weight" : 20
   },
@@ -1003,7 +1006,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/cable_standing_crunch/cable_standing_crunch.m3u8",
     "weight" : 20
   },
@@ -1043,7 +1046,7 @@
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "biceps",
+    "type" : "forearms",
     "video" : "/cable_wrist_extension/cable_wrist_extension.m3u8",
     "weight" : 20
   },
@@ -1213,11 +1216,11 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedAndWeight",
+    "measurement" : "timedWeighted",
     "name" : "Dumbbell Elbow Side Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/dumbbell_elbow_side_plank/dumbbell_elbow_side_plank.m3u8",
     "weight" : 8
   },
@@ -1243,11 +1246,11 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedAndWeight",
+    "measurement" : "timedWeighted",
     "name" : "Dumbbell Hand Side Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/dumbbell_hand_side_plank/dumbbell_hand_side_plank.m3u8",
     "weight" : 8
   },
@@ -1323,11 +1326,11 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedAndWeight",
+    "measurement" : "timedWeighted",
     "name" : "Dumbbell Side Plank Up Down",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/dumbbell_side_plank_up_down/dumbbell_side_plank_up_down.m3u8",
     "weight" : 8
   },
@@ -1377,7 +1380,7 @@
     "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/dumbbell_suitcase_crunch/dumbbell_suitcase_crunch.m3u8",
     "weight" : 8
   },
@@ -1764,7 +1767,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "biceps",
+    "type" : "forearms",
     "video" : "/kettlebell_wrist_curl/kettlebell_wrist_curl.m3u8",
     "weight" : 12
   },
@@ -1774,7 +1777,7 @@
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "biceps",
+    "type" : "forearms",
     "video" : "/kettlebell_wrist_extension/kettlebell_wrist_extension.m3u8",
     "weight" : 12
   },
@@ -2019,7 +2022,7 @@
     "name" : "Long Lever Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
-    "type" : "core",
+    "type" : "abs",
     "video" : "/long_lever_plank/long_lever_plank.m3u8"
   },
   {
@@ -2316,7 +2319,7 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedAndWeight",
+    "measurement" : "timedWeighted",
     "name" : "Resistance Band Side Plank Glute Raise",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
