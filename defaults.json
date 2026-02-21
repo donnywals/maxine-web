@@ -595,7 +595,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "forearms",
+    "type" : "biceps",
     "video" : "/band_wrist_curl/band_wrist_curl.m3u8",
     "weight" : 10
   },
@@ -835,7 +835,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "forearms",
+    "type" : "biceps",
     "video" : "/barbell_palm_down_wrist_curl_over_a_bench/barbell_palm_down_wrist_curl_over_a_bench.m3u8",
     "weight" : 20
   },
@@ -1043,7 +1043,7 @@
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "forearms",
+    "type" : "biceps",
     "video" : "/cable_wrist_extension/cable_wrist_extension.m3u8",
     "weight" : 20
   },
@@ -1764,7 +1764,7 @@
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "forearms",
+    "type" : "biceps",
     "video" : "/kettlebell_wrist_curl/kettlebell_wrist_curl.m3u8",
     "weight" : 12
   },
@@ -1774,7 +1774,7 @@
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
     "reps" : 10,
     "sets" : 3,
-    "type" : "forearms",
+    "type" : "biceps",
     "video" : "/kettlebell_wrist_extension/kettlebell_wrist_extension.m3u8",
     "weight" : 12
   },
