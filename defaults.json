@@ -1273,16 +1273,6 @@
   },
   {
     "measurement" : "weighted",
-    "name" : "Dumbbell Lateral Raise",
-    "note" : "Free-weight raise to shoulder height; slight elbow bend, lead with elbows, avoid shrugging.",
-    "reps" : 12,
-    "sets" : 3,
-    "type" : "shoulders",
-    "video" : "/dumbbell_lateral_raise/dumbbell_lateral_raise.m3u8",
-    "weight" : 8
-  },
-  {
-    "measurement" : "weighted",
     "name" : "Dumbbell Pendlay Row",
     "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
     "reps" : 8,
