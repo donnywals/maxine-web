@@ -1213,7 +1213,7 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedWeighted",
+    "measurement" : "timedAndWeight",
     "name" : "Dumbbell Elbow Side Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
@@ -1243,7 +1243,7 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedWeighted",
+    "measurement" : "timedAndWeight",
     "name" : "Dumbbell Hand Side Plank",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
@@ -1323,7 +1323,7 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedWeighted",
+    "measurement" : "timedAndWeight",
     "name" : "Dumbbell Side Plank Up Down",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
@@ -2316,7 +2316,7 @@
   },
   {
     "duration" : 30,
-    "measurement" : "timedWeighted",
+    "measurement" : "timedAndWeight",
     "name" : "Resistance Band Side Plank Glute Raise",
     "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
     "sets" : 3,
