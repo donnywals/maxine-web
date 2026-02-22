@@ -637,6 +637,9 @@
     "weight" : 20
   },
   {
+    "alias" : [
+      "bent over rows"
+    ],
     "measurement" : "weighted",
     "name" : "Barbell Bent Over Row",
     "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
@@ -2181,6 +2184,9 @@
     "video" : "/nordic_hamstring_curl/nordic_hamstring_curl.m3u8"
   },
   {
+    "alias" : [
+      "bent over one arm row (dumbbell)"
+    ],
     "measurement" : "weighted",
     "name" : "One-Arm Dumbbell Row",
     "note" : "Single-arm row; brace on bench, pull elbow toward hip, pause and squeeze lats.",
