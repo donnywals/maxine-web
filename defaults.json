@@ -909,7 +909,8 @@
   {
     "alias" : [
       "Bench triceps dip straight legs",
-      "triceps dip"
+      "triceps dip",
+      "triceps dip (bench)"
     ],
     "measurement" : "bodyweight",
     "name" : "Bench dip",
@@ -2581,15 +2582,6 @@
     "type" : "back",
     "video" : "/straight_arm_cable_pulldown/straight_arm_cable_pulldown.m3u8",
     "weight" : 20
-  },
-  {
-    "measurement" : "bodyweight",
-    "name" : "Triceps Dip (Bench)",
-    "note" : "Hands on bench; lower hips close to bench, press up, keep shoulders down and back.",
-    "reps" : 12,
-    "sets" : 3,
-    "type" : "triceps",
-    "video" : "/triceps_dip_bench/triceps_dip_bench.m3u8"
   },
   {
     "measurement" : "weighted",
