@@ -186,6 +186,10 @@
     "video" : "/ankle_circles/ankle_circles.m3u8"
   },
   {
+    "alias" : [
+      "arnold press (dumbbell)",
+      "dumbbell arnold press"
+    ],
     "measurement" : "weighted",
     "name" : "Arnold Press",
     "note" : "Dumbbell press with rotation; keep ribs down, rotate smoothly, control the lowering.",
