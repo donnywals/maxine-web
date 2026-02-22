@@ -1385,13 +1385,17 @@
     "weight" : 8
   },
   {
+    "alias" : [
+      "walking lunges",
+      "lunge"
+    ],
     "measurement" : "weighted",
     "name" : "Dumbbell Walking Lunge",
     "note" : "Walking lunges holding dumbbells; keep torso tall, step long, drive through front foot.",
     "reps" : 12,
     "sets" : 3,
     "type" : "legs",
-    "video" : "/dumbbell_walking_lunge/dumbbell_walking_lunge.m3u8",
+    "video" : "/walking_lunges/walking_lunges.m3u8",
     "weight" : 12
   },
   {
@@ -1722,6 +1726,10 @@
     "weight" : 12
   },
   {
+    "alias" : [
+      "kettlebell fly",
+      "kettlebell flies"
+    ],
     "measurement" : "weighted",
     "name" : "Kettlebell Single Arm Lateral Raise",
     "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
