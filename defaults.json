@@ -941,14 +941,19 @@
     "video" : "/bulgarian_split_squat_stretch/bulgarian_split_squat_stretch.m3u8"
   },
   {
+    "alias" : [
+      "single arm cable curl",
+      "one arm cable curl",
+      "handle cable curl"
+    ],
     "measurement" : "weighted",
     "name" : "Cable Biceps Curl",
     "note" : "Cable curl station; elbows fixed, curl with supination, constant tension and slow negative.",
-    "reps" : 12,
+    "reps" : 8,
     "sets" : 3,
     "type" : "biceps",
     "video" : "/cable_biceps_curl/cable_biceps_curl.m3u8",
-    "weight" : 25
+    "weight" : 14
   },
   {
     "alias" : [
