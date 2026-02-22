@@ -951,6 +951,19 @@
     "weight" : 25
   },
   {
+    "alias" : [
+      "Cable close grip curl"
+    ],
+    "measurement" : "weighted",
+    "name" : "Cable curl",
+    "note" : "1. Stand facing the pulley machine and grasp the bar with an underhand grip (palms facing up), hands closer than shoulder-width apart.\n2. Stand with your feet shoulder-width apart, keeping your back straight and core engaged. Hold the bar extending in front of your thighs.\n3. Curl the bar upwards towards your shoulders by bending your elbows. Keeping your upper arms stationary and focusing on contracting your biceps.\n4. Slowly lower the bar back to the starting position with your arms fully extended. Repeat the movement for the desired number of repetitions.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/cable_curl/cable_curl.m3u8",
+    "weight" : 18
+  },
+  {
     "measurement" : "weighted",
     "name" : "Cable Glute Kickback",
     "note" : "Ankle strap cable kickback; keep hips square, extend leg back, pause and squeeze glute.",
