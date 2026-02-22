@@ -907,6 +907,19 @@
     "weight" : 30
   },
   {
+    "alias" : [
+      "Bench triceps dip straight legs",
+      "triceps dip"
+    ],
+    "measurement" : "bodyweight",
+    "name" : "Bench dip",
+    "note" : "1. Sit down on a bench and place your hands on the edge near your hips.\n2. Walk your feet out, straighten your legs, and lift your hips off the bench while holding the bench.\n3. Lower your hips down by folding your arms.\n4. As your arms form a 90-degree angle, raise your hips, and repeat.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/bench_dip/bench_dip.m3u8"
+  },
+  {
     "measurement" : "bodyweight",
     "name" : "Bicycle Crunch",
     "note" : "Alternating elbow-to-knee; rotate through torso, keep lower back controlled.",
