@@ -921,6 +921,20 @@
     "video" : "/bench_dip/bench_dip.m3u8"
   },
   {
+    "alias" : [
+      "bent over row (dumbbell)",
+      "bent-over dumbbell row"
+    ],
+    "measurement" : "weighted",
+    "name" : "Bent over dumbbell row",
+    "note" : "1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip (palms facing each other). Bend at your hips and knees to lower your torso until it is nearly parallel to the floor, keeping your back straight.\n2. Let the dumbbells hang directly below your shoulders, arms fully extended.\n3. Pull the dumbbells towards your torso, leading with your elbows and keeping them close to your body. Squeeze your shoulder blades together at the top of the movement.\n4. Lower the dumbbells back to the starting position with a controlled motion. Repeat for the desired number of repetitions.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/dumbbell_bent_over_row/dumbbell_bent_over_row.m3u8",
+    "weight" : 18
+  },
+  {
     "measurement" : "bodyweight",
     "name" : "Bicycle Crunch",
     "note" : "Alternating elbow-to-knee; rotate through torso, keep lower back controlled.",
@@ -1239,6 +1253,9 @@
     "weight" : 8
   },
   {
+    "alias" : [
+      "dumbbell press"
+    ],
     "measurement" : "weighted",
     "name" : "Dumbbell Bench Press",
     "note" : "Flat dumbbell press; wrists stacked, elbows ~45°, lower with control and press to full extension.",
