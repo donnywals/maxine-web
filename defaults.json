@@ -710,6 +710,11 @@
     "weight" : 30
   },
   {
+    "alias" : [
+      "squats",
+      "squat",
+      "barbell squat"
+    ],
     "measurement" : "weighted",
     "name" : "Barbell Full Squat",
     "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
