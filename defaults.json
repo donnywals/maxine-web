@@ -1563,6 +1563,9 @@
     "weight" : 60
   },
   {
+    "alias" : [
+      "alternating hammer curls"
+    ],
     "measurement" : "weighted",
     "name" : "Hammer Curl",
     "note" : "Neutral-grip dumbbell curl; keep elbows close, lift without swinging, control down.",
