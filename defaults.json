@@ -2275,7 +2275,7 @@
     "reps" : 12,
     "sets" : 3,
     "type" : "biceps",
-    "video" : "/preacher_curl_machine/preacher_curl_machine.m3u8",
+    "video" : "/preacher_curl_ez_bar/preacher_curl_ez_bar.m3u8",
     "weight" : 25
   },
   {
@@ -2645,6 +2645,11 @@
     "weight" : 20
   },
   {
+    "alias" : [
+      "barbell skull crishers",
+      "ez bar skull crushers",
+      "skull crushers"
+    ],
     "measurement" : "weighted",
     "name" : "Triceps Skull Crushers (EZ-Bar)",
     "note" : "Lying triceps extension; elbows point up, lower bar to forehead area, extend without flaring.",
