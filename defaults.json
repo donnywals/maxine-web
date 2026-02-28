@@ -2269,6 +2269,10 @@
     "weight" : 20
   },
   {
+    "alias" : [
+      "precaher curls",
+      "preacher curl ez bar"
+    ],
     "measurement" : "weighted",
     "name" : "Preacher Curl Machine",
     "note" : "Preacher curl; keep upper arm on pad, avoid fully locking out, squeeze at the top.",
