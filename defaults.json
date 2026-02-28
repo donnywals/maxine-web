@@ -227,6 +227,9 @@
     "video" : "/assisted_parallel_close_grip_pull_up/assisted_parallel_close_grip_pull_up.m3u8"
   },
   {
+    "alias" : [
+      "chin up"
+    ],
     "measurement" : "bodyweight",
     "name" : "Assisted Pull-up",
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
@@ -845,6 +848,20 @@
     "weight" : 20
   },
   {
+    "alias" : [
+      "overhead press",
+      "overhead press (barbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Barbell Overhead Press",
+    "note" : "Standing barbell press; squeeze glutes, brace core, press straight overhead, and lock out without over-arching.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "shoulders",
+    "video" : "/seated_shoulder_press_barbell/seated_shoulder_press_barbell.m3u8",
+    "weight" : 30
+  },
+  {
     "measurement" : "weighted",
     "name" : "Barbell Palm Down Wrist Curl Over A Bench",
     "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
@@ -1358,6 +1375,19 @@
     "weight" : 8
   },
   {
+    "alias" : [
+      "overhead triceps extension"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Overhead Extension",
+    "note" : "Hold one dumbbell with both hands and raise it overhead, arms extended. Keeping your elbows close to your head, lower the weight behind you by bending your elbows. Extend your arms to bring the dumbbell back overhead and repeat. Alternatively, hold the dumbbell with one hand.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/dumbbell_overhead_extension/dumbbell_overhead_extension.m3u8",
+    "weight" : 6
+  },
+  {
     "measurement" : "weighted",
     "name" : "Dumbbell Pendlay Row",
     "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
@@ -1388,6 +1418,10 @@
     "weight" : 30
   },
   {
+    "alias" : [
+      "shoulder press",
+      "shoulder press (dumbbell)"
+    ],
     "measurement" : "weighted",
     "name" : "Dumbbell Shoulder Press",
     "note" : "Seated or standing; press overhead without shrugging, keep wrists stacked, control down.",
@@ -2248,16 +2282,6 @@
     "type" : "core",
     "video" : "/overhead_cable_crunch/overhead_cable_crunch.m3u8",
     "weight" : 20
-  },
-  {
-    "measurement" : "weighted",
-    "name" : "Overhead Press",
-    "note" : "Standing barbell press; squeeze glutes, brace core, press straight overhead, and lock out without over-arching.",
-    "reps" : 5,
-    "sets" : 5,
-    "type" : "shoulders",
-    "video" : "/overhead_press/overhead_press.m3u8",
-    "weight" : 30
   },
   {
     "measurement" : "weighted",
