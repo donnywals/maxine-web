@@ -1094,6 +1094,10 @@
     "weight" : 30
   },
   {
+    "alias" : [
+      "rope triceps pushdowns",
+      "triceps rope pushdowns"
+    ],
     "measurement" : "weighted",
     "name" : "Cable Triceps Pushdown (Rope)",
     "note" : "Rope pushdown; elbows pinned, split rope at bottom, slow return.",
@@ -1678,6 +1682,20 @@
     "type" : "chest",
     "video" : "/incline_chest_press_machine/incline_chest_press_machine.m3u8",
     "weight" : 40
+  },
+  {
+    "alias" : [
+      "incline dumbbell press",
+      "incline dumbbell bench press"
+    ],
+    "measurement" : "weighted",
+    "name" : "Incline dumbbell chest press",
+    "note" : "Set a bench to a 30–45° incline. Lie back with dumbbells at chest level, elbows about 45° from your sides and shoulder blades pulled back. Press the weights up until your arms are nearly straight, then lower them slowly under control to chest level and repeat.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/dumbbell_chest_press_incline_bench/dumbbell_chest_press_incline_bench.m3u8",
+    "weight" : 8
   },
   {
     "measurement" : "bodyweight",
