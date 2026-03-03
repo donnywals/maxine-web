@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/tailwind.build.css --minify",
+    "build:blog": "node ./scripts/build-blog.mjs",
     "dev:css": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/tailwind.build.css --watch",
     "dev:serve": "live-server --open=index.html --port=3000 --wait=200 --watch=./dist,./index.html",
     "dev": "npm run dev:css & npm run dev:serve"
