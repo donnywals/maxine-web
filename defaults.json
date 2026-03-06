@@ -1797,6 +1797,10 @@
     "video" : "/jumping_lunge/jumping_lunge.m3u8"
   },
   {
+    "alias" : [
+      "calf raises",
+      "calf raise"
+    ],
     "measurement" : "weighted",
     "name" : "Kettlebell Calf Raise",
     "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
@@ -2562,6 +2566,10 @@
     "weight" : 50
   },
   {
+    "alias" : [
+      "seated calf raises",
+      "seated calf raise"
+    ],
     "measurement" : "weighted",
     "name" : "Seated Calf Raise Machine",
     "note" : "Seated calf raise; full stretch, strong squeeze, slow tempo.",
@@ -2574,7 +2582,8 @@
   {
     "alias" : [
       "seated leg curl machine",
-      "leg curls"
+      "leg curls",
+      "leg curl"
     ],
     "measurement" : "weighted",
     "name" : "Seated Leg Curl",
