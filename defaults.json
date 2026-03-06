@@ -1225,6 +1225,10 @@
     "weight" : 10
   },
   {
+    "alias" : [
+      "deadlifts",
+      "deadlift"
+    ],
     "measurement" : "weighted",
     "name" : "Conventional Deadlift",
     "note" : "Free-weight barbell pull from floor; hinge at hips, keep a neutral spine, bar close to shins, and drive through heels.",
@@ -1434,6 +1438,10 @@
     "weight" : 18
   },
   {
+    "alias" : [
+      "Shrugs",
+      "Shrug (Dumbbell)"
+    ],
     "measurement" : "weighted",
     "name" : "Dumbbell Shrug",
     "note" : "Shoulder shrug; lift shoulders straight up, pause briefly, avoid rolling shoulders.",
@@ -2251,7 +2259,7 @@
     "reps" : 6,
     "sets" : 4,
     "type" : "back",
-    "video" : "/neutral_grip_pull_ups/neutral_grip_pull_ups.m3u8"
+    "video" : "/pull_up_normal_grip/pull_up_normal_grip.m3u8"
   },
   {
     "measurement" : "bodyweight",
@@ -2272,7 +2280,7 @@
     "reps" : 10,
     "sets" : 3,
     "type" : "back",
-    "video" : "/one_arm_dumbbell_row/one_arm_dumbbell_row.m3u8",
+    "video" : "/dumbbell_single_arm_row/dumbbell_single_arm_row.m3u8",
     "weight" : 22
   },
   {
@@ -2346,7 +2354,7 @@
     "reps" : 6,
     "sets" : 4,
     "type" : "back",
-    "video" : "/pull_ups/pull_ups.m3u8"
+    "video" : "/pull_up_normal_grip/pull_up_normal_grip.m3u8"
   },
   {
     "measurement" : "bodyweight",
