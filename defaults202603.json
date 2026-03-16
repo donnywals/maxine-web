@@ -1,0 +1,2784 @@
+[
+  {
+    "measurement" : "bodyweight",
+    "name" : "3 4 Sit-up",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/3_4_sit_up/3_4_sit_up.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "4 Reverse Lunge And 4 Side Taps",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/4_reverse_lunge_and_4_side_taps/4_reverse_lunge_and_4_side_taps.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "45 Degree Bycicle Twisting Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/45_degree_bycicle_twisting_crunch/45_degree_bycicle_twisting_crunch.m3u8"
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timed",
+    "name" : "90 To 90 Stretch",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 2,
+    "type" : "core",
+    "video" : "/90_to_90_stretch/90_to_90_stretch.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Ab Crunch Machine",
+    "note" : "Ab crunch machine; tuck ribs toward hips, avoid pulling with arms, exhale on the contraction.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/ab_crunch_machine/ab_crunch_machine.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "AB Mat Sit-up",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/ab_mat_sit_up/ab_mat_sit_up.m3u8"
+  },
+  {
+    "duration" : 20,
+    "measurement" : "timed",
+    "name" : "AB Wheel Plank",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/ab_wheel_plank/ab_wheel_plank.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Ab Wheel Rollout",
+    "note" : "Rollout from knees; brace core, extend until just before losing form, pull back using abs.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/ab_wheel_rollout/ab_wheel_rollout.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Abdominal Crunches",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/abdominal_crunches/abdominal_crunches.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Abdominal Crunches Machine",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/abdominal_crunches_machine/abdominal_crunches_machine.m3u8",
+    "weight" : 20
+  },
+  {
+    "duration" : 600,
+    "measurement" : "timed",
+    "name" : "Air Bike",
+    "note" : "Full-body cardio; drive arms and legs together, pace steadily, breathe rhythmically.",
+    "reps" : 1,
+    "sets" : 1,
+    "type" : "core",
+    "video" : "/air_bike/air_bike.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Air Twisting Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/air_twisting_crunch/air_twisting_crunch.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Alternate Biceps Curl Resistance Band",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/alternate_biceps_curl_resistance_band/alternate_biceps_curl_resistance_band.m3u8",
+    "weight" : 10
+  },
+  {
+    "alias" : [
+      "Alternate dumbbell curls",
+      "alternate biceps curls",
+      "dumbbell curls"
+    ],
+    "measurement" : "weighted",
+    "name" : "Alternate Biceps Curl Standing Dumbbells",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/alternate_biceps_curl_standing_dumbbells/alternate_biceps_curl_standing_dumbbells.m3u8",
+    "weight" : 8
+  },
+  {
+    "duration" : 20,
+    "measurement" : "timed",
+    "name" : "Alternate Leg Raise From Reverse Plank Position 1",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/alternate_leg_raise_from_reverse_plank_position_1/alternate_leg_raise_from_reverse_plank_position_1.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Alternate Oblique Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/alternate_oblique_crunch/alternate_oblique_crunch.m3u8"
+  },
+  {
+    "duration" : 20,
+    "measurement" : "timed",
+    "name" : "Alternate Single Leg Raise Plank",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/alternate_single_leg_raise_plank/alternate_single_leg_raise_plank.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Alternate Sprinter Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/alternate_sprinter_lunge/alternate_sprinter_lunge.m3u8"
+  },
+  {
+    "alias" : [
+      "Alternate seated dumbbell curls",
+      "alternate seated curls",
+      "alternate seated biceps curls",
+      "seated dumbbell curls"
+    ],
+    "measurement" : "weighted",
+    "name" : "Alternating Biceps Curl Seated Dumbbells",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/alternating_biceps_curl_seated_dumbbells/alternating_biceps_curl_seated_dumbbells.m3u8",
+    "weight" : 8
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timed",
+    "name" : "Ankle Circles",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/ankle_circles/ankle_circles.m3u8"
+  },
+  {
+    "alias" : [
+      "arnold press (dumbbell)",
+      "dumbbell arnold press"
+    ],
+    "measurement" : "weighted",
+    "name" : "Arnold Press",
+    "note" : "Dumbbell press with rotation; keep ribs down, rotate smoothly, control the lowering.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/arnold_press/arnold_press.m3u8",
+    "weight" : 14
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Assisted Bulgarian Split Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/assisted_bulgarian_split_squat/assisted_bulgarian_split_squat.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Assisted Parallel Close Grip Pull-up",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/assisted_parallel_close_grip_pull_up/assisted_parallel_close_grip_pull_up.m3u8"
+  },
+  {
+    "alias" : [
+      "chin up"
+    ],
+    "measurement" : "bodyweight",
+    "name" : "Assisted Pull-up",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/assisted_pull_up/assisted_pull_up.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Assisted Pull-Up Machine",
+    "note" : "Assisted pull-up; use assistance to keep strict form, pause at top, full stretch at bottom.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/assisted_pull_up_machine/assisted_pull_up_machine.m3u8",
+    "weight" : 35
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Assisted Sit-up",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/assisted_sit_up/assisted_sit_up.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Back Extension",
+    "note" : "45° hyperextension; hinge at hips, neutral spine, raise torso until in line with legs.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/back_extension/back_extension.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Ball Sit-up",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/ball_sit_up/ball_sit_up.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Behind Neck Shoulder Press",
+    "note" : "Brace your trunk, press overhead on a vertical path, and lower to start without excessive back arching.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/band_behind_neck_shoulder_press/band_behind_neck_shoulder_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Bent Over One Arm Kickback",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/band_bent_over_one_arm_kickback/band_bent_over_one_arm_kickback.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Bent Over Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/band_bent_over_row/band_bent_over_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Bicycle Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/band_bicycle_crunch/band_bicycle_crunch.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Close Grip Biceps Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_close_grip_biceps_curl/band_close_grip_biceps_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Close Grip Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "biceps",
+    "video" : "/band_close_grip_row/band_close_grip_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Cross Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/band_cross_abduction/band_cross_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Cross Chest Biceps Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_cross_chest_biceps_curl/band_cross_chest_biceps_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Hammer Grip Incline Bench Two Arm Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/band_hammer_grip_incline_bench_two_arm_row/band_hammer_grip_incline_bench_two_arm_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Hip Adduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/band_hip_adduction/band_hip_adduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Alternate Hammer Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_incline_alternate_hammer_curl/band_incline_alternate_hammer_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Bench Press",
+    "note" : "Set shoulders back, control the lowering phase, and press to lockout while keeping wrists stacked and elbows controlled.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "chest",
+    "video" : "/band_incline_bench_press/band_incline_bench_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Biceps Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_incline_biceps_curl/band_incline_biceps_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Fly",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/band_incline_fly/band_incline_fly.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Hammer Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_incline_hammer_curl/band_incline_hammer_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Hammer Press",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "chest",
+    "video" : "/band_incline_hammer_press/band_incline_hammer_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Palms Back Press",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "chest",
+    "video" : "/band_incline_palms_back_press/band_incline_palms_back_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/band_incline_row/band_incline_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline T Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/band_incline_t_raise/band_incline_t_raise.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Triceps Extension",
+    "note" : "Keep upper arms stable, extend at the elbows to contract triceps, and return with controlled tempo.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/band_incline_triceps_extension/band_incline_triceps_extension.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Incline Y Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/band_incline_y_raise/band_incline_y_raise.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Keeling Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/band_keeling_crunch/band_keeling_crunch.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Kneeling Single Arm High Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/band_kneeling_single_arm_high_row/band_kneeling_single_arm_high_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Leg Press",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/band_leg_press/band_leg_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Lying Reverse Grip Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/band_lying_reverse_grip_row/band_lying_reverse_grip_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Prone Incline Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_prone_incline_curl/band_prone_incline_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Prone Incline Hammer Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_prone_incline_hammer_curl/band_prone_incline_hammer_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Seated Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/band_seated_lateral_raise/band_seated_lateral_raise.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Seated Shoulder Press",
+    "note" : "Brace your trunk, press overhead on a vertical path, and lower to start without excessive back arching.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/band_seated_shoulder_press/band_seated_shoulder_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Single Leg Split Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/band_single_leg_split_squat/band_single_leg_split_squat.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Spanish Split Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/band_spanish_split_squat/band_spanish_split_squat.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Squat Row",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/band_squat_row/band_squat_row.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Two Legs Calf Raise Band Under Both Legs",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/band_two_legs_calf_raise_band_under_both_legs/band_two_legs_calf_raise_band_under_both_legs.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Band Wrist Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/band_wrist_curl/band_wrist_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Alternate Biceps Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/barbell_alternate_biceps_curl/barbell_alternate_biceps_curl.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Back Squat",
+    "note" : "Free-weight barbell squat in a rack; keep chest up, brace your core, and sit to parallel with knees tracking over toes.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "quads",
+    "video" : "/barbell_full_squat_back/barbell_full_squat_back.m3u8",
+    "weight" : 60
+  },
+  {
+    "alias" : [
+      "bench press"
+    ],
+    "measurement" : "weighted",
+    "name" : "Barbell Bench Press",
+    "note" : "Set shoulders back, control the lowering phase, and press to lockout while keeping wrists stacked and elbows controlled.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "chest",
+    "video" : "/barbell_bench_press/barbell_bench_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "alias" : [
+      "bent over rows"
+    ],
+    "measurement" : "weighted",
+    "name" : "Barbell Bent Over Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/barbell_bent_over_row/barbell_bent_over_row.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Bulgarian Split Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/barbell_bulgarian_split_squat/barbell_bulgarian_split_squat.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Curtsy Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/barbell_curtsy_lunge/barbell_curtsy_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Deadlift",
+    "note" : "Hinge at the hips with a neutral spine, keep the load close to the body, stand tall, and lower under control.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "hamstrings",
+    "video" : "/barbell_deadlift/barbell_deadlift.m3u8",
+    "weight" : 40
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Floor Press",
+    "note" : "Floor press; upper arms touch floor each rep, pause briefly, press with stable shoulders.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "chest",
+    "video" : "/barbell_floor_chest_press/barbell_floor_chest_press.m3u8",
+    "weight" : 50
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Front Rack Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/barbell_front_rack_lunge/barbell_front_rack_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Front Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "quads",
+    "video" : "/barbell_front_squat/barbell_front_squat.m3u8",
+    "weight" : 30
+  },
+  {
+    "alias" : [
+      "squats",
+      "squat",
+      "barbell squat",
+      "squat (barbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Barbell Full Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "quads",
+    "video" : "/barbell_full_squat/barbell_full_squat.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Full Squat Back",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "quads",
+    "video" : "/barbell_full_squat_back/barbell_full_squat_back.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Full Squat Wide Stance",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "glutes",
+    "video" : "/barbell_full_squat_wide_stance/barbell_full_squat_wide_stance.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Glute Bridge",
+    "note" : "Floor bridge with barbell on hips; drive through heels and squeeze glutes at the top.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/barbell_glute_bridge/barbell_glute_bridge.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Hip Thrust",
+    "note" : "Barbell across hips on a bench; drive through heels, squeeze glutes at top, and keep ribs down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/barbell_hip_thrust/barbell_hip_thrust.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Incline Bench Press",
+    "note" : "Set shoulders back, control the lowering phase, and press to lockout while keeping wrists stacked and elbows controlled.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "chest",
+    "video" : "/barbell_incline_bench_press/barbell_incline_bench_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Incline Shoulders Press",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/barbell_incline_shoulders_press/barbell_incline_shoulders_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Lateral Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/barbell_lateral_lunge/barbell_lateral_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/barbell_lunge/barbell_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Meadows Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/barbell_meadows_row/barbell_meadows_row.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Narrow Full Stance",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/barbell_narrow_full_stance/barbell_narrow_full_stance.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Overhead Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/barbell_overhead_lunge/barbell_overhead_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "alias" : [
+      "overhead press",
+      "overhead press (barbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Barbell Overhead Press",
+    "note" : "Standing barbell press; squeeze glutes, brace core, press straight overhead, and lock out without over-arching.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "shoulders",
+    "video" : "/seated_shoulder_press_barbell/seated_shoulder_press_barbell.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Palm Down Wrist Curl Over A Bench",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/barbell_palm_down_wrist_curl_over_a_bench/barbell_palm_down_wrist_curl_over_a_bench.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Pause Incline Bench Press",
+    "note" : "Set shoulders back, control the lowering phase, and press to lockout while keeping wrists stacked and elbows controlled.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "chest",
+    "video" : "/barbell_pause_incline_bench_press/barbell_pause_incline_bench_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Pause Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/barbell_pause_lunge/barbell_pause_lunge.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Shrug",
+    "note" : "Barbell shrugs; stand tall, shrug straight up, hold and lower under control.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/barbell_shrug/barbell_shrug.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Split Squat",
+    "note" : "Split stance squat with barbell; stay tall, drop back knee under hips, push through front foot.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/barbell_split_squat/barbell_split_squat.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Supinated Pendlay Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/barbell_supinated_pendlay_row/barbell_supinated_pendlay_row.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Barbell Walking Lunge",
+    "note" : "Walking lunge with barbell; upright torso, long stride, soft knee touch, stay controlled.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/barbell_walking_lunge/barbell_walking_lunge.m3u8",
+    "weight" : 30
+  },
+  {
+    "alias" : [
+      "Bench triceps dip straight legs",
+      "triceps dip",
+      "triceps dip (bench)"
+    ],
+    "measurement" : "bodyweight",
+    "name" : "Bench dip",
+    "note" : "1. Sit down on a bench and place your hands on the edge near your hips.\n2. Walk your feet out, straighten your legs, and lift your hips off the bench while holding the bench.\n3. Lower your hips down by folding your arms.\n4. As your arms form a 90-degree angle, raise your hips, and repeat.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/bench_dip/bench_dip.m3u8"
+  },
+  {
+    "alias" : [
+      "bent over row (dumbbell)",
+      "bent-over dumbbell row"
+    ],
+    "measurement" : "weighted",
+    "name" : "Bent over dumbbell row",
+    "note" : "1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip (palms facing each other). Bend at your hips and knees to lower your torso until it is nearly parallel to the floor, keeping your back straight.\n2. Let the dumbbells hang directly below your shoulders, arms fully extended.\n3. Pull the dumbbells towards your torso, leading with your elbows and keeping them close to your body. Squeeze your shoulder blades together at the top of the movement.\n4. Lower the dumbbells back to the starting position with a controlled motion. Repeat for the desired number of repetitions.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/dumbbell_bent_over_row/dumbbell_bent_over_row.m3u8",
+    "weight" : 18
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Bicycle Crunch",
+    "note" : "Alternating elbow-to-knee; rotate through torso, keep lower back controlled.",
+    "reps" : 20,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/bicycle_crunch/bicycle_crunch.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Box Squat",
+    "note" : "Barbell squat to a box/bench; lightly touch and stand, keep tension, avoid rocking back.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "hamstrings",
+    "video" : "/box_squat/box_squat.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Bulgarian Split Squat",
+    "note" : "Rear foot elevated split squat (dumbbells); control the descent, keep front knee tracking over toes.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/bulgarian_split_squat/bulgarian_split_squat.m3u8",
+    "weight" : 16
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timed",
+    "name" : "Bulgarian Split Squat Stretch",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "sets" : 2,
+    "type" : "glutes",
+    "video" : "/bulgarian_split_squat_stretch/bulgarian_split_squat_stretch.m3u8"
+  },
+  {
+    "alias" : [
+      "single arm cable curl",
+      "one arm cable curl",
+      "handle cable curl"
+    ],
+    "measurement" : "weighted",
+    "name" : "Cable Biceps Curl",
+    "note" : "Cable curl station; elbows fixed, curl with supination, constant tension and slow negative.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/cable_biceps_curl/cable_biceps_curl.m3u8",
+    "weight" : 14
+  },
+  {
+    "alias" : [
+      "Cable close grip curl"
+    ],
+    "measurement" : "weighted",
+    "name" : "Cable curl",
+    "note" : "1. Stand facing the pulley machine and grasp the bar with an underhand grip (palms facing up), hands closer than shoulder-width apart.\n2. Stand with your feet shoulder-width apart, keeping your back straight and core engaged. Hold the bar extending in front of your thighs.\n3. Curl the bar upwards towards your shoulders by bending your elbows. Keeping your upper arms stationary and focusing on contracting your biceps.\n4. Slowly lower the bar back to the starting position with your arms fully extended. Repeat the movement for the desired number of repetitions.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/cable_curl/cable_curl.m3u8",
+    "weight" : 18
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Glute Kickback",
+    "note" : "Ankle strap cable kickback; keep hips square, extend leg back, pause and squeeze glute.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/cable_glute_kickback/cable_glute_kickback.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Individual Glute Kickbacks",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/cable_individual_glute_kickbacks/cable_individual_glute_kickbacks.m3u8",
+    "weight" : 20
+  },
+  {
+    "alias" : [
+      "cable chest",
+      "middle fly",
+      "cable chest fly"
+    ],
+    "measurement" : "weighted",
+    "name" : "Cable Middle Fly",
+    "note" : "1. Stand in the center of a cable fly machine with the pulleys set at mid-chest height, with one foot in front of the other and knees slightly bent. Hold the handles with both hands, arms extended out to the sides at shoulder height, palms facing forward.\n2. Keep your back straight and maintain a slight bend at the hips and knees for stability.\n3. Pull the handles together in front of your chest in a wide arc, keeping your arms slightly bent, until your hands meet in the centerline of your chest.\n4. Slowly extend your arms back to the starting position with control. Repeat for the desired number of repetitions.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/cable_middle_fly/cable_middle_fly.m3u8",
+    "weight" : 14
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Pull-Through",
+    "note" : "Cable hinge facing away; let hips travel back, then snap hips through and squeeze glutes.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/cable_pull_through/cable_pull_through.m3u8",
+    "weight" : 25
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Split Squat",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/cable_split_squat/cable_split_squat.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Squat",
+    "note" : "Cable squat with low pulley; sit down and back, keep chest tall, stand without leaning back.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/cable_squat/cable_squat.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Standing Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/cable_standing_crunch/cable_standing_crunch.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Triceps Pushdown",
+    "note" : "Cable machine with straight bar or rope; elbows pinned to sides, push down fully, control on the way up.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/cable_triceps_pushdown/cable_triceps_pushdown.m3u8",
+    "weight" : 30
+  },
+  {
+    "alias" : [
+      "rope triceps pushdowns",
+      "triceps rope pushdowns"
+    ],
+    "measurement" : "weighted",
+    "name" : "Cable Triceps Pushdown (Rope)",
+    "note" : "Rope pushdown; elbows pinned, split rope at bottom, slow return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/cable_triceps_pushdown_rope/cable_triceps_pushdown_rope.m3u8",
+    "weight" : 25
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Twisting Biceps Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/cable_twisting_biceps_curl/cable_twisting_biceps_curl.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Cable Wrist Extension",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/cable_wrist_extension/cable_wrist_extension.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Calf Raise Leg Press Machine",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "calves",
+    "video" : "/calf_raise_leg_press_machine/calf_raise_leg_press_machine.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Calf Raise On Hack Squat Machine",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/calf_raise_on_hack_squat_machine/calf_raise_on_hack_squat_machine.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Captain's Chair Knee Raise",
+    "note" : "Knee raises on captain's chair; curl pelvis up slightly at top, control down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/captain_s_chair_knee_raise/captain_s_chair_knee_raise.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Chest Press (Plate-Loaded)",
+    "note" : "Plate-loaded press machine; keep back against pad, press smoothly, control the negative.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/chest_press_plate_loaded/chest_press_plate_loaded.m3u8",
+    "weight" : 40
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Chest Press Machine",
+    "note" : "Selectorized press machine; seat height so handles align mid-chest, controlled press without locking elbows.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/chest_press_machine/chest_press_machine.m3u8",
+    "weight" : 50
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Chin-Ups",
+    "note" : "Underhand pull-up; full hang, pull chin above bar, avoid swinging.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/chin_ups/chin_ups.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Close-Grip Bench Press",
+    "note" : "Barbell close-grip press; hands just inside shoulders, elbows tucked, press to lockout for triceps focus.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "triceps",
+    "video" : "/close_grip_bench_press/close_grip_bench_press.m3u8",
+    "weight" : 45
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Concentration Curl",
+    "note" : "Seated single-arm curl; brace elbow on thigh, curl to full contraction, control down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/concentration_curl/concentration_curl.m3u8",
+    "weight" : 10
+  },
+  {
+    "alias" : [
+      "deadlifts",
+      "deadlift"
+    ],
+    "measurement" : "weighted",
+    "name" : "Conventional Deadlift",
+    "note" : "Free-weight barbell pull from floor; hinge at hips, keep a neutral spine, bar close to shins, and drive through heels.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "back",
+    "video" : "/conventional_deadlift/conventional_deadlift.m3u8",
+    "weight" : 80
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Crunches",
+    "note" : "Floor crunch; ribs pull toward hips, lower back stays down, small controlled range.",
+    "reps" : 20,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/crunches/crunches.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Dead Bug",
+    "note" : "Supine core drill; keep low back down, extend opposite arm/leg, move slowly with control.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/dead_bug/dead_bug.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Diamond Push-Up",
+    "note" : "Hands close under chest; keep elbows tucked, lower slowly, press to lockout.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/diamond_push_up/diamond_push_up.m3u8"
+  },
+  {
+    "alias" : [
+      "floor dips"
+    ],
+    "measurement" : "bodyweight",
+    "name" : "Dips",
+    "note" : "Parallel bar dips; slight forward lean, descend to ~90° elbows, press without flaring shoulders.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/dips/dips.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Alternating Pendlay Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/dumbbell_alternating_pendlay_row/dumbbell_alternating_pendlay_row.m3u8",
+    "weight" : 8
+  },
+  {
+    "alias" : [
+      "dumbbell press"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Bench Press",
+    "note" : "Flat dumbbell press; wrists stacked, elbows ~45°, lower with control and press to full extension.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "chest",
+    "video" : "/dumbbell_bench_press/dumbbell_bench_press.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Bicep Curl",
+    "note" : "Free-weight curl; elbows tucked, supinate as you curl, control the lowering phase.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/dumbbell_bicep_curl/dumbbell_bicep_curl.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Decline Bench Press",
+    "note" : "Decline dumbbell press; keep shoulders pinned, lower to chest line, press smoothly.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/dumbbell_decline_bench_press/dumbbell_decline_bench_press.m3u8",
+    "weight" : 18
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timedAndWeight",
+    "name" : "Dumbbell Elbow Side Plank",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/dumbbell_elbow_side_plank/dumbbell_elbow_side_plank.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Goblet Forward Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/dumbbell_goblet_forward_lunge/dumbbell_goblet_forward_lunge.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Goblet Reverse Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/dumbbell_goblet_reverse_lunge/dumbbell_goblet_reverse_lunge.m3u8",
+    "weight" : 8
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timedAndWeight",
+    "name" : "Dumbbell Hand Side Plank",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/dumbbell_hand_side_plank/dumbbell_hand_side_plank.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Hip Thrust",
+    "note" : "Upper back on a bench; dumbbell on hips, drive through heels, squeeze glutes, ribs down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/dumbbell_hip_thrust/dumbbell_hip_thrust.m3u8",
+    "weight" : 24
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Knee Lawnmower Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/dumbbell_knee_lawnmower_row/dumbbell_knee_lawnmower_row.m3u8",
+    "weight" : 8
+  },
+  {
+    "alias" : [
+      "overhead triceps extension"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Overhead Extension",
+    "note" : "Hold one dumbbell with both hands and raise it overhead, arms extended. Keeping your elbows close to your head, lower the weight behind you by bending your elbows. Extend your arms to bring the dumbbell back overhead and repeat. Alternatively, hold the dumbbell with one hand.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/dumbbell_overhead_extension/dumbbell_overhead_extension.m3u8",
+    "weight" : 6
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Pendlay Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/dumbbell_pendlay_row/dumbbell_pendlay_row.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Reverse Lunge",
+    "note" : "Reverse lunge holding dumbbells; control the back step, stay balanced, drive through front heel.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/dumbbell_reverse_lunge/dumbbell_reverse_lunge.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Romanian Deadlift",
+    "note" : "Free-weight hip hinge with dumbbells; soft knees, push hips back, feel hamstring stretch, maintain neutral spine.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/dumbbell_romanian_deadlift/dumbbell_romanian_deadlift.m3u8",
+    "weight" : 30
+  },
+  {
+    "alias" : [
+      "shoulder press",
+      "shoulder press (dumbbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Shoulder Press",
+    "note" : "Seated or standing; press overhead without shrugging, keep wrists stacked, control down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/dumbbell_shoulder_press/dumbbell_shoulder_press.m3u8",
+    "weight" : 18
+  },
+  {
+    "alias" : [
+      "Shrugs",
+      "Shrug (Dumbbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Shrug",
+    "note" : "Shoulder shrug; lift shoulders straight up, pause briefly, avoid rolling shoulders.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/dumbbell_shrug/dumbbell_shrug.m3u8",
+    "weight" : 24
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timedAndWeight",
+    "name" : "Dumbbell Side Plank Up Down",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/dumbbell_side_plank_up_down/dumbbell_side_plank_up_down.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Single Arm Upright Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/dumbbell_single_arm_upright_row/dumbbell_single_arm_upright_row.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Skullcrusher",
+    "note" : "Keep upper arms stable, extend at the elbows to contract triceps, and return with controlled tempo.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/dumbbell_skullcrusher/dumbbell_skullcrusher.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Split Squat",
+    "note" : "Split stance squat holding dumbbells; stay balanced, descend straight down, press through front heel.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/dumbbell_split_squat/dumbbell_split_squat.m3u8",
+    "weight" : 14
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Standing Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/dumbbell_standing_hip_abduction/dumbbell_standing_hip_abduction.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Dumbbell Suitcase Crunch",
+    "note" : "Brace your core, move through controlled range, and avoid pulling with the neck or using momentum.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/dumbbell_suitcase_crunch/dumbbell_suitcase_crunch.m3u8",
+    "weight" : 8
+  },
+  {
+    "alias" : [
+      "walking lunges",
+      "lunge"
+    ],
+    "measurement" : "weighted",
+    "name" : "Dumbbell Walking Lunge",
+    "note" : "Walking lunges holding dumbbells; keep torso tall, step long, drive through front foot.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/walking_lunges/walking_lunges.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "EZ-Bar Curl",
+    "note" : "EZ-bar curl; elbows fixed, curl smoothly, control the lowering phase.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/ez_bar_curl/ez_bar_curl.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Face Pull",
+    "note" : "Cable face pull; pull rope toward nose/forehead, elbows high, squeeze rear delts and upper back.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/face_pull/face_pull.m3u8",
+    "weight" : 15
+  },
+  {
+    "duration" : 60,
+    "measurement" : "timed",
+    "name" : "Forearm Plank",
+    "note" : "Bodyweight hold on forearms; straight line head to heels, squeeze glutes, avoid sagging hips.",
+    "reps" : 1,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/forearm_plank/forearm_plank.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Glute Bridge",
+    "note" : "Floor glute bridge; feet flat, drive hips up, squeeze glutes, avoid over-arching lower back.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/glute_bridge/glute_bridge.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Glute Bridge With Abduction Bodyweight",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/glute_bridge_with_abduction_bodyweight/glute_bridge_with_abduction_bodyweight.m3u8"
+  },
+  {
+    "alias" : [
+      "dumbbell goblet squat",
+      "goblet squat (dumbbell)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Goblet Squat",
+    "note" : "Single dumbbell or kettlebell held at chest; sit between hips, keep torso upright, drive knees out.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/dumbbell_goblet_squat/dumbbell_goblet_squat.m3u8",
+    "weight" : 24
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Good Morning",
+    "note" : "Barbell on back; hinge at hips with a flat back, slight knee bend, move slowly and controlled.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/good_morning/good_morning.m3u8",
+    "weight" : 30
+  },
+  {
+    "alias" : [
+      "Hack squat"
+    ],
+    "measurement" : "weighted",
+    "name" : "Hack Squat Machine",
+    "note" : "Hack squat sled; feet mid-platform, descend under control, drive up without locking knees hard.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/hack_squat_machine/hack_squat_machine.m3u8",
+    "weight" : 60
+  },
+  {
+    "alias" : [
+      "alternating hammer curls"
+    ],
+    "measurement" : "weighted",
+    "name" : "Hammer Curl",
+    "note" : "Neutral-grip dumbbell curl; keep elbows close, lift without swinging, control down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/hammer_curl/hammer_curl.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Hanging Knee Raise",
+    "note" : "Hang from bar; tuck knees toward chest, avoid swinging, lower slowly.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/hanging_knee_raise/hanging_knee_raise.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Hanging Leg Raise",
+    "note" : "Hang from bar; raise straight legs under control, keep ribs down, avoid kipping.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/hanging_leg_raise/hanging_leg_raise.m3u8"
+  },
+  {
+    "alias" : [
+      "Hip abduction",
+      "Hip abductor",
+      "abductor"
+    ],
+    "measurement" : "weighted",
+    "name" : "Hip Abduction Machine",
+    "note" : "Abductor machine; sit tall, press knees outward under control, pause briefly at end range.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/hip_abduction_machine/hip_abduction_machine.m3u8",
+    "weight" : 40
+  },
+  {
+    "alias" : [
+      "hip adduction",
+      "hip adductor",
+      "adductor"
+    ],
+    "measurement" : "weighted",
+    "name" : "Hip Adduction Machine",
+    "note" : "Adductor machine; knees start wide, squeeze pads together smoothly without bouncing.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/hip_adduction_machine/hip_adduction_machine.m3u8",
+    "weight" : 35
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timed",
+    "name" : "Hollow Body Hold",
+    "note" : "Core hold; lower back stays down, ribs tucked, legs and shoulders slightly off floor.",
+    "reps" : 1,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/hollow_body_hold/hollow_body_hold.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Horizontal Leg Press",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/horizontal_leg_press/horizontal_leg_press.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Horizontal Leg Press Calf Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/horizontal_leg_press_calf_raise/horizontal_leg_press_calf_raise.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Horizontal Leg Press Calf Raise Single Leg",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/horizontal_leg_press_calf_raise_single_leg/horizontal_leg_press_calf_raise_single_leg.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Horizontal Leg Press Single Leg",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/horizontal_leg_press_single_leg/horizontal_leg_press_single_leg.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Incline Chest Press Machine",
+    "note" : "Incline press machine; adjust seat so handles align upper chest, press without locking elbows hard.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/incline_chest_press_machine/incline_chest_press_machine.m3u8",
+    "weight" : 40
+  },
+  {
+    "alias" : [
+      "incline dumbbell press",
+      "incline dumbbell bench press"
+    ],
+    "measurement" : "weighted",
+    "name" : "Incline dumbbell chest press",
+    "note" : "Set a bench to a 30–45° incline. Lie back with dumbbells at chest level, elbows about 45° from your sides and shoulder blades pulled back. Press the weights up until your arms are nearly straight, then lower them slowly under control to chest level and repeat.",
+    "reps" : 8,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/dumbbell_chest_press_incline_bench/dumbbell_chest_press_incline_bench.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Inverted Row",
+    "note" : "Bodyweight row under a bar; keep body straight, pull chest to bar, control down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/inverted_row/inverted_row.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Iso Lateral Shoulder Press Both Arms",
+    "note" : "Brace your trunk, press overhead on a vertical path, and lower to start without excessive back arching.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/iso_lateral_shoulder_press_both_arms/iso_lateral_shoulder_press_both_arms.m3u8"
+  },
+  {
+    "duration" : 60,
+    "measurement" : "timed",
+    "name" : "Jump Rope",
+    "note" : "Light bounces on balls of feet; keep elbows in, small wrist circles, steady breathing.",
+    "reps" : 1,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/jump_rope/jump_rope.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Jump Rope Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/jump_rope_row/jump_rope_row.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Jump Squats",
+    "note" : "Plyometric squat; descend under control, explode upward softly, land with knees tracking over toes.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/jump_squats/jump_squats.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Jumping Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/jumping_lunge/jumping_lunge.m3u8"
+  },
+  {
+    "alias" : [
+      "calf raises",
+      "calf raise"
+    ],
+    "measurement" : "weighted",
+    "name" : "Kettlebell Calf Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/kettlebell_calf_raise/kettlebell_calf_raise.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Goblet Reverse Lunge",
+    "note" : "Goblet hold; step back, stay tall, drive through front foot to stand.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/kettlebell_goblet_reverse_lunge/kettlebell_goblet_reverse_lunge.m3u8",
+    "weight" : 16
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Gorilla Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/kettlebell_gorilla_row/kettlebell_gorilla_row.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Incline Shrug",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/kettlebell_incline_shrug/kettlebell_incline_shrug.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Lateral Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/kettlebell_lateral_lunge/kettlebell_lateral_lunge.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Long Lever Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/kettlebell_long_lever_lateral_raise/kettlebell_long_lever_lateral_raise.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Reverse Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/kettlebell_reverse_lunge/kettlebell_reverse_lunge.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/kettlebell_row/kettlebell_row.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Seated Calf Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/kettlebell_seated_calf_raise/kettlebell_seated_calf_raise.m3u8",
+    "weight" : 12
+  },
+  {
+    "alias" : [
+      "kettlebell fly",
+      "kettlebell flies"
+    ],
+    "measurement" : "weighted",
+    "name" : "Kettlebell Single Arm Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/kettlebell_single_arm_lateral_raise/kettlebell_single_arm_lateral_raise.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Single Arm Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/kettlebell_single_arm_row/kettlebell_single_arm_row.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Single Leg Calf Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/kettlebell_single_leg_calf_raise/kettlebell_single_leg_calf_raise.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Upright Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/kettlebell_upright_row/kettlebell_upright_row.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Wrist Curl",
+    "note" : "Keep elbows close to your sides, curl through full range without swinging, and control the eccentric.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/kettlebell_wrist_curl/kettlebell_wrist_curl.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Kettlebell Wrist Extension",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/kettlebell_wrist_extension/kettlebell_wrist_extension.m3u8",
+    "weight" : 12
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Alternating Lunge And Twist",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/landmine_alternating_lunge_and_twist/landmine_alternating_lunge_and_twist.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Alternating Lunge To Chest Press",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/landmine_alternating_lunge_to_chest_press/landmine_alternating_lunge_to_chest_press.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Calf Raise",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/landmine_calf_raise/landmine_calf_raise.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Curtsy Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/landmine_curtsy_lunge/landmine_curtsy_lunge.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Goblet Curtsy Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/landmine_goblet_curtsy_lunge/landmine_goblet_curtsy_lunge.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Goblet Lateral Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/landmine_goblet_lateral_lunge/landmine_goblet_lateral_lunge.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Lateral Lunge",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "glutes",
+    "video" : "/landmine_lateral_lunge/landmine_lateral_lunge.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/landmine_lateral_raise/landmine_lateral_raise.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Landmine Lunge To Overhead Press",
+    "note" : "Take a stable split stance, lower straight down with control, and push through the front foot to return.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/landmine_lunge_to_overhead_press/landmine_lunge_to_overhead_press.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Lat Pulldown",
+    "note" : "Cable pulldown machine; lean slightly back, pull bar to upper chest, drive elbows down, control return.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/lat_pulldown/lat_pulldown.m3u8",
+    "weight" : 45
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Lat Pulldown (Neutral-Grip)",
+    "note" : "Neutral pulldown; drive elbows down, keep ribs down, control the return to full stretch.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/lat_pulldown_neutral_grip/lat_pulldown_neutral_grip.m3u8",
+    "weight" : 40
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Lat Pulldown (Underhand)",
+    "note" : "Underhand pulldown; keep elbows in front of torso, pull to upper chest, squeeze lats.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/lat_pulldown_underhand/lat_pulldown_underhand.m3u8",
+    "weight" : 40
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Lat Pulldown (Wide-Grip)",
+    "note" : "Wide pulldown; pull elbows down and out, bring bar to upper chest, avoid shrugging.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/lat_pulldown_wide_grip/lat_pulldown_wide_grip.m3u8",
+    "weight" : 45
+  },
+  {
+    "alias" : [
+      "flyes",
+      "dumbbell flyes",
+      "flies",
+      "dumbbell flies"
+    ],
+    "measurement" : "weighted",
+    "name" : "Lateral Raises Dumbbell",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/lateral_raises_dumbbell/lateral_raises_dumbbell.m3u8",
+    "weight" : 8
+  },
+  {
+    "alias" : [
+      "seated dumbbell flies",
+      "seated flies",
+      "seated dumbbell flies"
+    ],
+    "measurement" : "weighted",
+    "name" : "Lateral Raises Dumbbell Seated With Swing",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/lateral_raises_dumbbell_seated_with_swing/lateral_raises_dumbbell_seated_with_swing.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Lawnmower Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/lawnmower_row/lawnmower_row.m3u8"
+  },
+  {
+    "alias" : [
+      "laying flies"
+    ],
+    "measurement" : "bodyweight",
+    "name" : "Laying Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/laying_lateral_raise/laying_lateral_raise.m3u8"
+  },
+  {
+    "alias" : [
+      "Leaning dumbbel flies"
+    ],
+    "measurement" : "weighted",
+    "name" : "Leaning Dumbbell Lateral Raise",
+    "note" : "Move with strict form, pause briefly at the top, and avoid momentum to keep tension on the target muscles.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/leaning_dumbbell_lateral_raise/leaning_dumbbell_lateral_raise.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Leg Extension",
+    "note" : "Knee-extension machine; align knee with pivot, toes up, extend and squeeze quads, lower slowly.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/leg_extension/leg_extension.m3u8",
+    "weight" : 35
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Leg Press",
+    "note" : "45° sled machine; feet shoulder-width, lower with control to ~90° knees, press without locking out hard.",
+    "reps" : 10,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/leg_press/leg_press.m3u8",
+    "weight" : 120
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Leg Press (Single-Leg)",
+    "note" : "Single-leg leg press; keep pelvis stable, control depth, avoid knee collapse inward.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/leg_press_single_leg/leg_press_single_leg.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Leg Press Machine Normal Stance",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/leg_press_machine_normal_stance/leg_press_machine_normal_stance.m3u8",
+    "weight" : 20
+  },
+  {
+    "duration" : 20,
+    "measurement" : "timed",
+    "name" : "Long Lever Plank",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/long_lever_plank/long_lever_plank.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Lying Leg Curl",
+    "note" : "Prone hamstring curl machine; hips down on pad, curl heels toward glutes with control.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/lying_leg_curl/lying_leg_curl.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Machine Glute Kickback",
+    "note" : "Glute kickback machine; brace torso, drive heel back, squeeze glute without arching lower back.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/machine_glute_kickback/machine_glute_kickback.m3u8",
+    "weight" : 25
+  },
+  {
+    "duration" : 40,
+    "measurement" : "timed",
+    "name" : "Mountain Climbers",
+    "note" : "Bodyweight conditioning; high plank position, drive knees toward chest quickly while keeping hips low.",
+    "reps" : 1,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/mountain_climbers/mountain_climbers.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Multi Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/multi_hip_abduction/multi_hip_abduction.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Multi Hip Adduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/multi_hip_adduction/multi_hip_adduction.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Narrow Stance Heels Elevated Dumbbell Goblet Squats",
+    "note" : "Brace your core, descend with knees tracking over toes, then drive through midfoot to stand without losing spinal position.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/narrow_stance_heels_elevated_dumbbell_goblet_squats/narrow_stance_heels_elevated_dumbbell_goblet_squats.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Neutral-Grip Pull-Ups",
+    "note" : "Neutral handles; start from full hang, drive elbows down, control the descent.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/pull_up_normal_grip/pull_up_normal_grip.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Nordic Hamstring Curl",
+    "note" : "Kneeling hamstring curl; resist the fall, keep hips extended, use hands to assist if needed.",
+    "reps" : 6,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/nordic_hamstring_curl/nordic_hamstring_curl.m3u8"
+  },
+  {
+    "alias" : [
+      "bent over one arm row (dumbbell)",
+      "single arm dumbbell rows"
+    ],
+    "measurement" : "weighted",
+    "name" : "One-Arm Dumbbell Row",
+    "note" : "Single-arm row; brace on bench, pull elbow toward hip, pause and squeeze lats.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/dumbbell_single_arm_row/dumbbell_single_arm_row.m3u8",
+    "weight" : 22
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Overhead Cable Crunch",
+    "note" : "Kneeling cable crunch; curl ribs toward hips, keep hips stable, exhale on contraction.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/overhead_cable_crunch/overhead_cable_crunch.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Pallof Press",
+    "note" : "Anti-rotation cable press; stand tall, press arms out, resist twisting, pause and return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/pallof_press/pallof_press.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Pec Deck Fly",
+    "note" : "Pec fly machine; slight elbow bend, bring arms together in an arc, squeeze chest, avoid clanking weights.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/pec_deck_fly/pec_deck_fly.m3u8",
+    "weight" : 35
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Pendlay Row",
+    "note" : "Barbell row from floor each rep; flat back, pull to lower chest, reset and brace.",
+    "reps" : 5,
+    "sets" : 5,
+    "type" : "back",
+    "video" : "/pendlay_row/pendlay_row.m3u8",
+    "weight" : 45
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Plate Alternating Deadstop Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/plate_alternating_deadstop_row/plate_alternating_deadstop_row.m3u8",
+    "weight" : 20
+  },
+  {
+    "alias" : [
+      "precaher curls",
+      "preacher curl ez bar"
+    ],
+    "measurement" : "weighted",
+    "name" : "Preacher Curl Machine",
+    "note" : "Preacher curl; keep upper arm on pad, avoid fully locking out, squeeze at the top.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "biceps",
+    "video" : "/preacher_curl_ez_bar/preacher_curl_ez_bar.m3u8",
+    "weight" : 25
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Pull-Ups",
+    "note" : "Bodyweight vertical pull; full hang start, drive elbows down, chest toward bar, avoid kipping.",
+    "reps" : 6,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/pull_up_normal_grip/pull_up_normal_grip.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Push-Up (Decline)",
+    "note" : "Feet elevated; brace core, lower under control, press without letting hips sag.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/push_up_decline/push_up_decline.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Push-Up (Incline)",
+    "note" : "Hands on bench; keep straight body line, lower chest to bench, press to full lockout.",
+    "reps" : 15,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/push_up_incline/push_up_incline.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Push-Ups",
+    "note" : "Bodyweight press-up; straight line head to heels, elbows at ~45°, chest to floor, full lockout.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "chest",
+    "video" : "/push_ups/push_ups.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Rack Pull",
+    "note" : "Deadlift from pins/blocks; brace hard, keep bar close, stand tall without overextending.",
+    "reps" : 5,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/rack_pull/rack_pull.m3u8",
+    "weight" : 90
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Bent Leg Kickback Kneeling",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_bent_leg_kickback_kneeling/resistance_band_bent_leg_kickback_kneeling.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Glute Bridge Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_glute_bridge_abduction/resistance_band_glute_bridge_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Leg Kickback",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_leg_kickback/resistance_band_leg_kickback.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Lying Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_lying_abduction/resistance_band_lying_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Lying Bent Knee Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_lying_bent_knee_hip_abduction/resistance_band_lying_bent_knee_hip_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Lying Hyperextension Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/resistance_band_lying_hyperextension_abduction/resistance_band_lying_hyperextension_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band One Leg Kickback Bent Position",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_one_leg_kickback_bent_position/resistance_band_one_leg_kickback_bent_position.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Seated Bent Knee Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_seated_bent_knee_abduction/resistance_band_seated_bent_knee_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Seated Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_seated_hip_abduction/resistance_band_seated_hip_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "duration" : 30,
+    "measurement" : "timedAndWeight",
+    "name" : "Resistance Band Side Plank Glute Raise",
+    "note" : "Maintain steady breathing and controlled body position for the full interval without compensating posture.",
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_side_plank_glute_raise/resistance_band_side_plank_glute_raise.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Standing Balance Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_standing_balance_hip_abduction/resistance_band_standing_balance_hip_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Resistance Band Standing Hip Abduction",
+    "note" : "Use controlled tempo and full range of motion, keeping posture stable and stopping before technique breaks down.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/resistance_band_standing_hip_abduction/resistance_band_standing_hip_abduction.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Reverse Lunge",
+    "note" : "Step backward into a lunge; keep front shin mostly vertical and push the floor away to stand.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "glutes",
+    "video" : "/reverse_lunge/reverse_lunge.m3u8"
+  },
+  {
+    "duration" : 900,
+    "measurement" : "timed",
+    "name" : "Rowing Machine",
+    "note" : "Row erg; push with legs, then lean back slightly and pull, reverse on return with control.",
+    "reps" : 1,
+    "sets" : 1,
+    "type" : "back",
+    "video" : "/rowing_machine/rowing_machine.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Russian Twist",
+    "note" : "Seated twist; lean back slightly, rotate shoulders side to side, keep movement controlled.",
+    "reps" : 20,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/russian_twist/russian_twist.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Seated Cable Row",
+    "note" : "Cable row machine; neutral spine, pull handle to lower ribs, squeeze shoulder blades together.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/seated_cable_row/seated_cable_row.m3u8",
+    "weight" : 45
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Seated Calf Raise",
+    "note" : "Machine calf press seated; slow stretch at bottom, hard squeeze at top, keep knees slightly bent.",
+    "reps" : 12,
+    "sets" : 4,
+    "type" : "calves",
+    "video" : "/seated_calf_raise/seated_calf_raise.m3u8",
+    "weight" : 50
+  },
+  {
+    "alias" : [
+      "seated calf raises",
+      "seated calf raise"
+    ],
+    "measurement" : "weighted",
+    "name" : "Seated Calf Raise Machine",
+    "note" : "Seated calf raise; full stretch, strong squeeze, slow tempo.",
+    "reps" : 15,
+    "sets" : 4,
+    "type" : "calves",
+    "video" : "/seated_calf_raise_machine/seated_calf_raise_machine.m3u8",
+    "weight" : 50
+  },
+  {
+    "alias" : [
+      "seated leg curl machine",
+      "leg curls",
+      "leg curl"
+    ],
+    "measurement" : "weighted",
+    "name" : "Seated Leg Curl",
+    "note" : "Hamstring curl machine; hips back in seat, curl heels under with controlled tempo, avoid lifting hips.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/seated_leg_curl_machine/seated_leg_curl_machine.m3u8",
+    "weight" : 24
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Seated Row Machine Row",
+    "note" : "Keep torso stable, pull the handle or weight toward your torso by driving the elbow back, then lower smoothly.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "back",
+    "video" : "/seated_row_machine_row/seated_row_machine_row.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Shoulder Press Machine",
+    "note" : "Machine overhead press; seat low enough for elbows just below shoulders, press straight up without shrugging.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/shoulder_press_machine/shoulder_press_machine.m3u8",
+    "weight" : 35
+  },
+  {
+    "duration" : 45,
+    "measurement" : "timed",
+    "name" : "Side Plank",
+    "note" : "Bodyweight hold on one forearm; stack feet, lift hips, keep ribcage aligned and avoid twisting.",
+    "reps" : 1,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/side_plank/side_plank.m3u8"
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Single-Leg Calf Raise",
+    "note" : "Stand on a step; drop heel for stretch, rise high, control each rep.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "calves",
+    "video" : "/single_leg_calf_raise/single_leg_calf_raise.m3u8"
+  },
+  {
+    "duration" : 600,
+    "measurement" : "timed",
+    "name" : "Ski Erg",
+    "note" : "Pull down with lats and core; hinge slightly, drive hands past hips, keep rhythm steady.",
+    "reps" : 1,
+    "sets" : 1,
+    "type" : "back",
+    "video" : "/ski_erg/ski_erg.m3u8"
+  },
+  {
+    "alias" : [
+      "Bulgarian Split Squat (Smith machine)"
+    ],
+    "measurement" : "weighted",
+    "name" : "Smith Machine Bulgarian Split Squat",
+    "note" : "Split squat in Smith machine; stable stance, descend straight down, drive through front foot.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/smith_machine_split_squat/smith_machine_split_squat.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Smith Machine Squat",
+    "note" : "Smith squat; set feet slightly forward, keep torso upright, control depth and knee tracking.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "quads",
+    "video" : "/smith_machine_squat/smith_machine_squat.m3u8",
+    "weight" : 50
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Standing Calf Raise Machine",
+    "note" : "Standing calf raise; keep knees softly bent and move through full range.",
+    "reps" : 12,
+    "sets" : 4,
+    "type" : "calves",
+    "video" : "/standing_calf_raise_machine/standing_calf_raise_machine.m3u8",
+    "weight" : 60
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Standing Leg Curl",
+    "note" : "Single-leg curl machine; keep hips square, curl smoothly, control the return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "hamstrings",
+    "video" : "/standing_leg_curl/standing_leg_curl.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Standing Shoulder Press Dumbbell",
+    "note" : "Brace your trunk, press overhead on a vertical path, and lower to start without excessive back arching.",
+    "reps" : 8,
+    "sets" : 4,
+    "type" : "shoulders",
+    "video" : "/standing_shoulder_press_dumbbell/standing_shoulder_press_dumbbell.m3u8",
+    "weight" : 8
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Straight-Arm Cable Pulldown",
+    "note" : "Cable lat isolation; arms mostly straight, pull bar to thighs, feel lats, avoid leaning back.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/straight_arm_cable_pulldown/straight_arm_cable_pulldown.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Triceps Press Machine",
+    "note" : "Triceps extension machine; keep elbows aligned, extend smoothly, control the return.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/triceps_press_machine/triceps_press_machine.m3u8",
+    "weight" : 30
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Triceps Rope Extension On Crossover Machine",
+    "note" : "Keep upper arms stable, extend at the elbows to contract triceps, and return with controlled tempo.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/triceps_rope_extension_on_crossover_machine/triceps_rope_extension_on_crossover_machine.m3u8",
+    "weight" : 20
+  },
+  {
+    "alias" : [
+      "barbell skull crishers",
+      "ez bar skull crushers",
+      "skull crushers"
+    ],
+    "measurement" : "weighted",
+    "name" : "Triceps Skull Crushers (EZ-Bar)",
+    "note" : "Lying triceps extension; elbows point up, lower bar to forehead area, extend without flaring.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "triceps",
+    "video" : "/barbell_skull_crusher/barbell_skull_crusher.m3u8",
+    "weight" : 20
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Upright Row (Cable)",
+    "note" : "Cable upright row; pull to lower chest, keep elbows slightly in front, stop before discomfort.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "shoulders",
+    "video" : "/upright_row_cable/upright_row_cable.m3u8",
+    "weight" : 15
+  },
+  {
+    "measurement" : "bodyweight",
+    "name" : "Walking Lunges",
+    "note" : "Alternating bodyweight lunges; long stride, front knee stacked over ankle, light tap of back knee.",
+    "reps" : 12,
+    "sets" : 3,
+    "type" : "quads",
+    "video" : "/walking_lunges/walking_lunges.m3u8"
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Weighted Back Extension",
+    "note" : "Back extensions holding a plate/dumbbell; keep movement at the hips, avoid hyperextending.",
+    "reps" : 10,
+    "sets" : 3,
+    "type" : "back",
+    "video" : "/weighted_back_extension/weighted_back_extension.m3u8",
+    "weight" : 10
+  },
+  {
+    "measurement" : "weighted",
+    "name" : "Weighted Russian Twist",
+    "note" : "Medicine ball twist; rotate smoothly, keep ribs down, avoid pulling with arms only.",
+    "reps" : 20,
+    "sets" : 3,
+    "type" : "core",
+    "video" : "/weighted_russian_twist/weighted_russian_twist.m3u8",
+    "weight" : 6
+  }
+]
