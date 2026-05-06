@@ -2,6 +2,15 @@
 
 @plugin '@tailwindcss/forms';
 
+:root {
+  --font-inter: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
 @theme {
   --text-*: initial;
   --text-xs: 0.75rem;

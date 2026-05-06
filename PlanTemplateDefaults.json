@@ -1,0 +1,280 @@
+{
+  "planSets": [
+    {
+      "id": "hypertrophy",
+      "goal": "Muscle Growth",
+      "title": "Muscle Building (Hypertrophy)",
+      "description": "Higher volume with moderate weight. Aim for 60–70% of your max, 8–12 reps per set, 3–4 sets. Shorter rest (60–90s) to maximize time under tension. Run Push/Pull/Legs twice a week (e.g. Mon/Tue/Thu then Fri/Sat/Sun) by repeating the three days with the B variants.",
+      "plans": [
+        {
+          "name": "Push A",
+          "exercises": [
+            { "exerciseName": "Barbell Bench Press", "reps": 10, "sets": 4, "weight": 50 },
+            { "exerciseName": "Barbell Incline Bench Press", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Pec Deck Fly", "reps": 12, "sets": 3, "weight": 30 },
+            { "exerciseName": "Barbell Overhead Press", "reps": 10, "sets": 3, "weight": 30 },
+            { "exerciseName": "Lateral Raises Dumbbell", "reps": 12, "sets": 3, "weight": 8 },
+            { "exerciseName": "Cable Triceps Pushdown (Rope)", "reps": 12, "sets": 3, "weight": 20 },
+            { "exerciseName": "Dumbbell Skullcrusher", "reps": 10, "sets": 3, "weight": 8 }
+          ]
+        },
+        {
+          "name": "Pull A",
+          "exercises": [
+            { "exerciseName": "Barbell Bent Over Row", "reps": 10, "sets": 4, "weight": 45 },
+            { "exerciseName": "Lat Pulldown", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Seated Cable Row", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Face Pull", "reps": 15, "sets": 3, "weight": 15 },
+            { "exerciseName": "Dumbbell Bicep Curl", "reps": 10, "sets": 3, "weight": 10 },
+            { "exerciseName": "Hammer Curl", "reps": 10, "sets": 3, "weight": 10 }
+          ]
+        },
+        {
+          "name": "Legs A",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 10, "sets": 4, "weight": 50 },
+            { "exerciseName": "Dumbbell Romanian Deadlift", "reps": 12, "sets": 3, "weight": 24 },
+            { "exerciseName": "Leg Press", "reps": 12, "sets": 3, "weight": 100 },
+            { "exerciseName": "Leg Extension", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Lying Leg Curl", "reps": 12, "sets": 3, "weight": 25 },
+            { "exerciseName": "Seated Calf Raise Machine", "reps": 15, "sets": 3, "weight": 40 }
+          ]
+        },
+        {
+          "name": "Push B",
+          "exercises": [
+            { "exerciseName": "Dumbbell Bench Press", "reps": 10, "sets": 4, "weight": 20 },
+            { "exerciseName": "Incline dumbbell chest press", "reps": 10, "sets": 3, "weight": 16 },
+            { "exerciseName": "Cable Middle Fly", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Dumbbell Shoulder Press", "reps": 10, "sets": 3, "weight": 14 },
+            { "exerciseName": "Leaning Dumbbell Lateral Raise", "reps": 12, "sets": 3, "weight": 8 },
+            { "exerciseName": "Close-Grip Bench Press", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Dumbbell Overhead Extension", "reps": 12, "sets": 3, "weight": 10 }
+          ]
+        },
+        {
+          "name": "Pull B",
+          "exercises": [
+            { "exerciseName": "One-Arm Dumbbell Row", "reps": 10, "sets": 4, "weight": 20 },
+            { "exerciseName": "Lat Pulldown (Underhand)", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Straight-Arm Cable Pulldown", "reps": 12, "sets": 3, "weight": 18 },
+            { "exerciseName": "Face Pull", "reps": 15, "sets": 3, "weight": 15 },
+            { "exerciseName": "EZ-Bar Curl", "reps": 10, "sets": 3, "weight": 20 },
+            { "exerciseName": "Concentration Curl", "reps": 12, "sets": 3, "weight": 10 }
+          ]
+        },
+        {
+          "name": "Legs B",
+          "exercises": [
+            { "exerciseName": "Bulgarian Split Squat", "reps": 10, "sets": 3, "weight": 14 },
+            { "exerciseName": "Barbell Hip Thrust", "reps": 12, "sets": 4, "weight": 50 },
+            { "exerciseName": "Dumbbell Walking Lunge", "reps": 12, "sets": 3, "weight": 12 },
+            { "exerciseName": "Seated Leg Curl", "reps": 12, "sets": 3, "weight": 24 },
+            { "exerciseName": "Leg Extension", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Seated Calf Raise Machine", "reps": 15, "sets": 3, "weight": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strength",
+      "goal": "Strength",
+      "title": "Strength Building",
+      "description": "Heavier weight, lower reps. Work at 75–85% of your max, 5 reps, 5 sets. Rest 2–3 minutes between sets. Rotate three workouts across the week (e.g. Mon/Wed/Fri) and add small weight increments each session. Focus on compound movements and progressive overload.",
+      "plans": [
+        {
+          "name": "Squat & Press",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 5, "sets": 5, "weight": 70 },
+            { "exerciseName": "Barbell Bench Press", "reps": 5, "sets": 5, "weight": 55 },
+            { "exerciseName": "Barbell Bent Over Row", "reps": 5, "sets": 5, "weight": 50 },
+            { "exerciseName": "Dumbbell Overhead Extension", "reps": 10, "sets": 3, "weight": 12 },
+            { "exerciseName": "Hammer Curl", "reps": 10, "sets": 3, "weight": 10 }
+          ]
+        },
+        {
+          "name": "Deadlift & Overhead",
+          "exercises": [
+            { "exerciseName": "Barbell Deadlift", "reps": 5, "sets": 5, "weight": 90 },
+            { "exerciseName": "Barbell Overhead Press", "reps": 5, "sets": 5, "weight": 35 },
+            { "exerciseName": "Barbell Supinated Pendlay Row", "reps": 5, "sets": 5, "weight": 45 },
+            { "exerciseName": "Cable Triceps Pushdown", "reps": 12, "sets": 3, "weight": 25 },
+            { "exerciseName": "Dumbbell Bicep Curl", "reps": 10, "sets": 3, "weight": 10 }
+          ]
+        },
+        {
+          "name": "Squat & Incline",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 5, "sets": 5, "weight": 70 },
+            { "exerciseName": "Barbell Incline Bench Press", "reps": 5, "sets": 5, "weight": 45 },
+            { "exerciseName": "Barbell Bent Over Row", "reps": 5, "sets": 5, "weight": 50 },
+            { "exerciseName": "Back Extension", "reps": 12, "sets": 3 },
+            { "exerciseName": "Face Pull", "reps": 15, "sets": 3, "weight": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5x5",
+      "goal": "5x5",
+      "title": "StrongLifts 5x5",
+      "description": "Classic 5x5 program. Squat every workout, alternate Bench/Row (Workout A) with Overhead Press/Deadlift (Workout B). Alternate A and B each session across three days per week (e.g. Mon/Wed/Fri). Add weight each session when all reps are completed. Deadlift is 1×5. Rest 2–3 min between sets.",
+      "plans": [
+        {
+          "name": "Workout A",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 5, "sets": 5, "weight": 40 },
+            { "exerciseName": "Barbell Bench Press", "reps": 5, "sets": 5, "weight": 40 },
+            { "exerciseName": "Barbell Bent Over Row", "reps": 5, "sets": 5, "weight": 40 }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 5, "sets": 5, "weight": 40 },
+            { "exerciseName": "Barbell Overhead Press", "reps": 5, "sets": 5, "weight": 30 },
+            { "exerciseName": "Barbell Deadlift", "reps": 5, "sets": 1, "weight": 60 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weight_loss",
+      "goal": "Weight Loss",
+      "title": "Fat Loss",
+      "description": "Circuit-style training combining compound lifts with metabolic conditioning. 12–15 reps with short rest (30–45s between exercises, 90s between circuits). High intensity to maximize calorie burn while preserving muscle. Rotate the three circuits across three days per week.",
+      "plans": [
+        {
+          "name": "Full Body Circuit A",
+          "exercises": [
+            { "exerciseName": "Goblet Squat", "reps": 15, "sets": 3, "weight": 16 },
+            { "exerciseName": "Dumbbell Bench Press", "reps": 12, "sets": 3, "weight": 16 },
+            { "exerciseName": "Bent over dumbbell row", "reps": 12, "sets": 3, "weight": 14 },
+            { "exerciseName": "Dumbbell Reverse Lunge", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Dumbbell Shoulder Press", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Mountain Climbers", "duration": 30, "sets": 3 },
+            { "exerciseName": "Forearm Plank", "duration": 30, "sets": 2 }
+          ]
+        },
+        {
+          "name": "Full Body Circuit B",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 15, "sets": 3, "weight": 35 },
+            { "exerciseName": "Barbell Bent Over Row", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Barbell Overhead Press", "reps": 12, "sets": 3, "weight": 25 },
+            { "exerciseName": "Dumbbell Walking Lunge", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Push-Ups", "reps": 15, "sets": 3 },
+            { "exerciseName": "Bicycle Crunch", "reps": 20, "sets": 3 }
+          ]
+        },
+        {
+          "name": "Full Body Circuit C",
+          "exercises": [
+            { "exerciseName": "Leg Press", "reps": 15, "sets": 3, "weight": 80 },
+            { "exerciseName": "One-Arm Dumbbell Row", "reps": 12, "sets": 3, "weight": 16 },
+            { "exerciseName": "Incline dumbbell chest press", "reps": 12, "sets": 3, "weight": 14 },
+            { "exerciseName": "Bulgarian Split Squat", "reps": 10, "sets": 3, "weight": 10 },
+            { "exerciseName": "Lateral Raises Dumbbell", "reps": 15, "sets": 3, "weight": 6 },
+            { "exerciseName": "Jump Squats", "reps": 12, "sets": 3 },
+            { "exerciseName": "Side Plank", "duration": 30, "sets": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endurance",
+      "goal": "Endurance",
+      "title": "General Fitness",
+      "description": "Three full-body routines with moderate intensity. 10–15 reps, 3 sets, 60–90s rest. Rotate across three days per week (e.g. Mon/Wed/Fri). Focus on mastering movement patterns, building a foundation of strength, and long-term consistency.",
+      "plans": [
+        {
+          "name": "Full Body A",
+          "exercises": [
+            { "exerciseName": "Goblet Squat", "reps": 12, "sets": 3, "weight": 16 },
+            { "exerciseName": "Dumbbell Bench Press", "reps": 12, "sets": 3, "weight": 14 },
+            { "exerciseName": "Bent over dumbbell row", "reps": 12, "sets": 3, "weight": 14 },
+            { "exerciseName": "Dumbbell Shoulder Press", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Dumbbell Romanian Deadlift", "reps": 12, "sets": 3, "weight": 18 },
+            { "exerciseName": "Forearm Plank", "duration": 30, "sets": 3 }
+          ]
+        },
+        {
+          "name": "Full Body B",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Barbell Incline Bench Press", "reps": 12, "sets": 3, "weight": 30 },
+            { "exerciseName": "Lat Pulldown", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Barbell Lunge", "reps": 10, "sets": 3, "weight": 20 },
+            { "exerciseName": "Face Pull", "reps": 15, "sets": 3, "weight": 12 },
+            { "exerciseName": "Dead Bug", "reps": 10, "sets": 3 }
+          ]
+        },
+        {
+          "name": "Full Body C",
+          "exercises": [
+            { "exerciseName": "Leg Press", "reps": 12, "sets": 3, "weight": 80 },
+            { "exerciseName": "One-Arm Dumbbell Row", "reps": 12, "sets": 3, "weight": 14 },
+            { "exerciseName": "Dumbbell Shoulder Press", "reps": 12, "sets": 3, "weight": 10 },
+            { "exerciseName": "Glute Bridge", "reps": 15, "sets": 3 },
+            { "exerciseName": "Seated Cable Row", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Side Plank", "duration": 30, "sets": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper_lower",
+      "goal": "Muscle Growth",
+      "title": "Upper / Lower Split",
+      "description": "A beginner-friendly four-day split alternating upper and lower body days. 8–12 reps, 3–4 sets, 90s rest. Run Upper A / Lower A / Upper B / Lower B across four days of the week (e.g. Mon/Tue/Thu/Fri). Great for balanced development without the volume demands of Push/Pull/Legs.",
+      "plans": [
+        {
+          "name": "Upper A",
+          "exercises": [
+            { "exerciseName": "Barbell Bench Press", "reps": 10, "sets": 4, "weight": 50 },
+            { "exerciseName": "Barbell Bent Over Row", "reps": 10, "sets": 4, "weight": 45 },
+            { "exerciseName": "Barbell Overhead Press", "reps": 10, "sets": 3, "weight": 30 },
+            { "exerciseName": "Lat Pulldown", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Lateral Raises Dumbbell", "reps": 12, "sets": 3, "weight": 8 },
+            { "exerciseName": "EZ-Bar Curl", "reps": 10, "sets": 3, "weight": 20 },
+            { "exerciseName": "Cable Triceps Pushdown (Rope)", "reps": 12, "sets": 3, "weight": 20 }
+          ]
+        },
+        {
+          "name": "Lower A",
+          "exercises": [
+            { "exerciseName": "Barbell Back Squat", "reps": 10, "sets": 4, "weight": 50 },
+            { "exerciseName": "Dumbbell Romanian Deadlift", "reps": 12, "sets": 3, "weight": 22 },
+            { "exerciseName": "Leg Press", "reps": 12, "sets": 3, "weight": 100 },
+            { "exerciseName": "Lying Leg Curl", "reps": 12, "sets": 3, "weight": 25 },
+            { "exerciseName": "Leg Extension", "reps": 12, "sets": 3, "weight": 35 },
+            { "exerciseName": "Seated Calf Raise Machine", "reps": 15, "sets": 4, "weight": 40 }
+          ]
+        },
+        {
+          "name": "Upper B",
+          "exercises": [
+            { "exerciseName": "Incline dumbbell chest press", "reps": 10, "sets": 4, "weight": 18 },
+            { "exerciseName": "One-Arm Dumbbell Row", "reps": 10, "sets": 4, "weight": 20 },
+            { "exerciseName": "Dumbbell Shoulder Press", "reps": 10, "sets": 3, "weight": 14 },
+            { "exerciseName": "Lat Pulldown (Underhand)", "reps": 10, "sets": 3, "weight": 40 },
+            { "exerciseName": "Face Pull", "reps": 15, "sets": 3, "weight": 15 },
+            { "exerciseName": "Hammer Curl", "reps": 10, "sets": 3, "weight": 10 },
+            { "exerciseName": "Dumbbell Skullcrusher", "reps": 10, "sets": 3, "weight": 8 }
+          ]
+        },
+        {
+          "name": "Lower B",
+          "exercises": [
+            { "exerciseName": "Barbell Deadlift", "reps": 8, "sets": 3, "weight": 70 },
+            { "exerciseName": "Barbell Hip Thrust", "reps": 12, "sets": 3, "weight": 50 },
+            { "exerciseName": "Bulgarian Split Squat", "reps": 10, "sets": 3, "weight": 14 },
+            { "exerciseName": "Seated Leg Curl", "reps": 12, "sets": 3, "weight": 24 },
+            { "exerciseName": "Dumbbell Walking Lunge", "reps": 12, "sets": 3, "weight": 12 },
+            { "exerciseName": "Seated Calf Raise Machine", "reps": 15, "sets": 4, "weight": 40 }
+          ]
+        }
+      ]
+    }
+  ]
+}
