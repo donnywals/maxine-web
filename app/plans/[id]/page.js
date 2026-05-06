@@ -8,6 +8,10 @@ const APP_STORE_URL =
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
+  if (id.endsWith(".json")) {
+    return {};
+  }
+
   const plan = getPublicPlanByIdentifier(id);
   if (!plan) return {};
 
@@ -22,6 +26,11 @@ export async function generateMetadata({ params }) {
 
 export default async function PublicPlanPage({ params }) {
   const { id } = await params;
+
+  if (id.endsWith(".json")) {
+    redirect(`/plans/${id.slice(0, -5)}/json`);
+  }
+
   const plan = getPublicPlanByIdentifier(id);
 
   if (!plan) {
