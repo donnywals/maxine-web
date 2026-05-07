@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .npm-cache
+.env
+.env.*
+!.env.example
 
 # OS / editor
 .DS_Store
@@ -16,4 +19,8 @@ pnpm-debug.log*
 # Build artifacts (keep dist per request)
 dist/*
 !dist/tailwind.build.css
+.next
+
+# Local SQLite data
+.data
 
