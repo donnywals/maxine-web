@@ -32,12 +32,6 @@ export function PublicHeader({ current = "home" }) {
         <Link className="hover:text-gray-200" href="/blog/">
           Blog
         </Link>
-        <Link
-          className="rounded-full bg-white px-4 py-2 font-semibold text-[#491964] shadow-sm hover:bg-gray-100"
-          href="/admin/login"
-        >
-          Login
-        </Link>
       </nav>
     </header>
   );

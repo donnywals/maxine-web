@@ -19,9 +19,14 @@ export function AdminShell({ user, children }) {
               Plans
             </Link>
             {user.role === "owner" ? (
-              <Link className="font-medium text-gray-700 hover:text-gray-950" href="/admin/exercises">
-                Exercises
-              </Link>
+              <>
+                <Link className="font-medium text-gray-700 hover:text-gray-950" href="/admin/exercises">
+                  Exercises
+                </Link>
+                <Link className="font-medium text-gray-700 hover:text-gray-950" href="/admin/users">
+                  Users
+                </Link>
+              </>
             ) : null}
             <Link className="font-medium text-gray-700 hover:text-gray-950" href="/">
               Site

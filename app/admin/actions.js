@@ -2,13 +2,17 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { login, logout, requireOwner, requireUser } from "../../lib/auth";
+import { canManageOwnerRole, login, logout, requireOwner, requireUser } from "../../lib/auth";
 import {
+  createUser,
   createPlanForUser,
   deleteExercise,
   deletePlanForUser,
+  getUser,
   getPlan,
+  isValidUserRole,
   planInputFromForm,
+  updateUser,
   updatePlanForUser,
   upsertExercise,
 } from "../../lib/db";
@@ -79,9 +83,63 @@ export async function deleteExerciseAction(exerciseId) {
   redirect("/admin/exercises");
 }
 
+export async function createUserAction(formData) {
+  const actor = await requireOwner();
+  const input = userInputFromForm(formData, { requirePassword: true });
+  if (!input) redirect("/admin/users/new?error=invalid");
+  if (input.role === "owner" && !canManageOwnerRole(actor)) {
+    redirect("/admin/users/new?error=role");
+  }
+
+  let id;
+  try {
+    id = createUser(input);
+  } catch {
+    redirect("/admin/users/new?error=duplicate");
+  }
+
+  revalidatePath("/admin/users");
+  redirect(`/admin/users/${id}`);
+}
+
+export async function updateUserAction(userId, formData) {
+  const actor = await requireOwner();
+  const user = getUser(userId);
+  if (!user) redirect("/admin/users");
+
+  const input = userInputFromForm(formData, { requirePassword: false });
+  if (!input) redirect(`/admin/users/${userId}?error=invalid`);
+  if ((user.role === "owner" || input.role === "owner") && !canManageOwnerRole(actor)) {
+    redirect(`/admin/users/${userId}?error=role`);
+  }
+
+  try {
+    updateUser({ id: userId, ...input });
+  } catch (error) {
+    const reason = error.message?.includes("owner") ? "owner" : "duplicate";
+    redirect(`/admin/users/${userId}?error=${reason}`);
+  }
+
+  revalidatePath("/admin/users");
+  revalidatePath(`/admin/users/${userId}`);
+  redirect(`/admin/users/${userId}`);
+}
+
 export async function assertOwnsPlan(planId) {
   const user = await requireUser();
   const plan = getPlan(planId, user.id);
   if (!plan) redirect("/admin");
   return { user, plan };
+}
+
+function userInputFromForm(formData, { requirePassword }) {
+  const username = String(formData.get("username") || "").trim();
+  const password = String(formData.get("password") || "");
+  const role = String(formData.get("role") || "user");
+
+  if (!username || !isValidUserRole(role)) return null;
+  if (requirePassword && password.length < 8) return null;
+  if (!requirePassword && password && password.length < 8) return null;
+
+  return { username, password, role };
 }
