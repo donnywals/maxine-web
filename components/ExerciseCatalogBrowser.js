@@ -96,10 +96,13 @@ export function ExerciseCatalogBrowser({ exercises }) {
           value={query}
         />
 
-        <div className="mt-5">
-          <p className="text-sm font-medium text-gray-700">{ADMIN_STRINGS.filterByType}</p>
+        <div className="mt-5" role="group" aria-labelledby="exercise-filter-type-label">
+          <p className="text-sm font-medium text-gray-700" id="exercise-filter-type-label">
+            {ADMIN_STRINGS.filterByType}
+          </p>
           <div className="mt-3 flex flex-wrap gap-2">
             <button
+              aria-label={ADMIN_STRINGS.filterAllTypes}
               aria-pressed={allTypesSelected}
               className={filterButtonClassName(allTypesSelected)}
               onClick={() => setSelectedTypes(types)}
@@ -124,10 +127,13 @@ export function ExerciseCatalogBrowser({ exercises }) {
           </div>
         </div>
 
-        <div className="mt-5">
-          <p className="text-sm font-medium text-gray-700">{ADMIN_STRINGS.filterByEquipment}</p>
+        <div className="mt-5" role="group" aria-labelledby="exercise-filter-equipment-label">
+          <p className="text-sm font-medium text-gray-700" id="exercise-filter-equipment-label">
+            {ADMIN_STRINGS.filterByEquipment}
+          </p>
           <div className="mt-3 flex flex-wrap gap-2">
             <button
+              aria-label={ADMIN_STRINGS.filterAllEquipment}
               aria-pressed={allEquipmentSelected}
               className={filterButtonClassName(allEquipmentSelected)}
               onClick={() => setSelectedEquipment(equipmentOptions)}
@@ -209,7 +215,8 @@ function sortEquipmentSelection(selection) {
 }
 
 function filterButtonClassName(isSelected) {
-  const base = "rounded-full px-4 py-2 text-sm font-semibold transition";
+  const base =
+    "rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#491964] focus-visible:ring-offset-2";
   if (isSelected) return `${base} bg-[#491964] text-white hover:bg-[#37124F]`;
   return `${base} border border-gray-300 text-gray-700 hover:bg-gray-50`;
 }
