@@ -7,7 +7,8 @@ export const metadata = {
   title: "New Exercise",
 };
 
-export default async function NewExercisePage() {
+export default async function NewExercisePage({ searchParams }) {
+  const query = await searchParams;
   const user = await requireOwner();
 
   return (
@@ -19,7 +20,7 @@ export default async function NewExercisePage() {
         New exercise
       </h1>
       <div className="mt-8">
-        <ExerciseForm />
+        <ExerciseForm error={query?.error} />
       </div>
     </AdminShell>
   );

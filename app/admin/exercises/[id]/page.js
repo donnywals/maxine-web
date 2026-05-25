@@ -13,8 +13,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function EditExercisePage({ params }) {
+export default async function EditExercisePage({ params, searchParams }) {
   const { id } = await params;
+  const query = await searchParams;
   const user = await requireOwner();
   const exercise = getExercise(id);
 
@@ -40,7 +41,7 @@ export default async function EditExercisePage({ params }) {
         </form>
       </div>
       <div className="mt-8">
-        <ExerciseForm exercise={exercise} />
+        <ExerciseForm error={query?.error} exercise={exercise} />
       </div>
     </AdminShell>
   );

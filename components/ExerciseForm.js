@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { saveExerciseAction } from "../app/admin/actions";
+import { EXERCISE_EQUIPMENT, equipmentLabel } from "../lib/exercise-equipment";
 
 const MEASUREMENTS = [
   { value: "bodyweight", label: "Bodyweight" },
@@ -10,13 +11,18 @@ const MEASUREMENTS = [
   { value: "timedAndWeight", label: "Timed and weighted" },
 ];
 
-export function ExerciseForm({ exercise }) {
+export function ExerciseForm({ exercise, error }) {
   const [measurement, setMeasurement] = useState(exercise?.measurement || "bodyweight");
   const visibleFields = prescriptionFieldsFor(measurement);
 
   return (
     <form action={saveExerciseAction} className="space-y-6 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-gray-200">
       <input name="id" type="hidden" value={exercise?.id || ""} />
+      {error === "equipment" ? (
+        <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-800 ring-1 ring-red-200">
+          Choose a valid equipment value or None.
+        </p>
+      ) : null}
       <div className="grid gap-5 md:grid-cols-2">
         <Field label="Name" name="name" required value={exercise?.name} />
         <div>
@@ -34,6 +40,24 @@ export function ExerciseForm({ exercise }) {
             {MEASUREMENTS.map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700" htmlFor="equipment">
+            Equipment
+          </label>
+          <select
+            className="mt-2 block w-full rounded-xl border-gray-300"
+            defaultValue={exercise?.equipment || ""}
+            id="equipment"
+            name="equipment"
+          >
+            <option value="">None</option>
+            {EXERCISE_EQUIPMENT.map((value) => (
+              <option key={value} value={value}>
+                {equipmentLabel(value)}
               </option>
             ))}
           </select>

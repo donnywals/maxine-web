@@ -59,8 +59,9 @@ export async function deletePlanAction(planId) {
 
 export async function saveExerciseAction(formData) {
   await requireOwner();
-  const id = upsertExercise({
-    id: String(formData.get("id") || ""),
+  const exerciseId = String(formData.get("id") || "");
+  const input = {
+    id: exerciseId,
     name: String(formData.get("name") || "").trim(),
     measurement: String(formData.get("measurement") || ""),
     type: String(formData.get("type") || ""),
@@ -71,15 +72,30 @@ export async function saveExerciseAction(formData) {
     duration: formData.get("duration"),
     video: String(formData.get("video") || ""),
     aliases: String(formData.get("aliases") || ""),
-  });
-  revalidatePath("/admin/exercises");
-  redirect(`/admin/exercises/${id}`);
+    equipment: formData.get("equipment"),
+  };
+
+  try {
+    const id = upsertExercise(input);
+    revalidatePath("/admin/exercises");
+    revalidatePath(`/admin/exercises/${id}`);
+    revalidatePath("/defaults202603.json");
+    redirect(`/admin/exercises/${id}`);
+  } catch (error) {
+    if (error?.message !== "Invalid equipment") throw error;
+
+    const redirectPath = exerciseId
+      ? `/admin/exercises/${exerciseId}?error=equipment`
+      : "/admin/exercises/new?error=equipment";
+    redirect(redirectPath);
+  }
 }
 
 export async function deleteExerciseAction(exerciseId) {
   await requireOwner();
   deleteExercise(exerciseId);
   revalidatePath("/admin/exercises");
+  revalidatePath("/defaults202603.json");
   redirect("/admin/exercises");
 }
 
