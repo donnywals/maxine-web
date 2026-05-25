@@ -2,6 +2,13 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { ADMIN_STRINGS } from "../lib/admin-strings";
+import {
+  EQUIPMENT_FILTER_NONE,
+  EQUIPMENT_FILTER_OPTIONS,
+  equipmentLabel,
+  exerciseEquipmentFilterKey,
+} from "../lib/exercise-equipment";
 
 export function ExerciseCatalogBrowser({ exercises }) {
   const types = useMemo(
@@ -11,16 +18,37 @@ export function ExerciseCatalogBrowser({ exercises }) {
       ),
     [exercises],
   );
+  const equipmentOptions = EQUIPMENT_FILTER_OPTIONS;
   const [query, setQuery] = useState("");
   const [selectedTypes, setSelectedTypes] = useState(() => types);
+  const [selectedEquipment, setSelectedEquipment] = useState(() => equipmentOptions);
 
   const allTypesSelected =
     selectedTypes.length === types.length &&
     types.every((type) => selectedTypes.includes(type));
+  const allEquipmentSelected =
+    selectedEquipment.length === equipmentOptions.length &&
+    equipmentOptions.every((option) => selectedEquipment.includes(option));
   const selectedTypeSet = useMemo(() => new Set(selectedTypes), [selectedTypes]);
+  const selectedEquipmentSet = useMemo(() => new Set(selectedEquipment), [selectedEquipment]);
   const results = useMemo(
-    () => filterExercises(exercises, query, selectedTypeSet, allTypesSelected),
-    [allTypesSelected, exercises, query, selectedTypeSet],
+    () =>
+      filterExercises(
+        exercises,
+        query,
+        selectedTypeSet,
+        allTypesSelected,
+        selectedEquipmentSet,
+        allEquipmentSelected,
+      ),
+    [
+      allEquipmentSelected,
+      allTypesSelected,
+      exercises,
+      query,
+      selectedEquipmentSet,
+      selectedTypeSet,
+    ],
   );
 
   function toggleType(type) {
@@ -35,23 +63,41 @@ export function ExerciseCatalogBrowser({ exercises }) {
     });
   }
 
+  function toggleEquipment(option) {
+    setSelectedEquipment((current) => {
+      const currentHasEveryOption =
+        current.length === equipmentOptions.length &&
+        equipmentOptions.every((equipmentOption) => current.includes(equipmentOption));
+      if (currentHasEveryOption) return [option];
+
+      return current.includes(option)
+        ? current.filter((selectedOption) => selectedOption !== option)
+        : sortEquipmentSelection([...current, option]);
+    });
+  }
+
+  function equipmentChipLabel(option) {
+    if (option === EQUIPMENT_FILTER_NONE) return equipmentLabel(null);
+    return equipmentLabel(option);
+  }
+
   return (
     <div className="mt-8 space-y-5">
       <section className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-gray-200">
         <label className="block text-sm font-medium text-gray-700" htmlFor="exercise-search">
-          Search titles and aliases
+          {ADMIN_STRINGS.exerciseSearchLabel}
         </label>
         <input
           className="mt-2 block w-full rounded-xl border-gray-300"
           id="exercise-search"
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Try dumbbell curls, chin up, squat..."
+          placeholder={ADMIN_STRINGS.exerciseSearchPlaceholder}
           type="search"
           value={query}
         />
 
         <div className="mt-5">
-          <p className="text-sm font-medium text-gray-700">Filter by type</p>
+          <p className="text-sm font-medium text-gray-700">{ADMIN_STRINGS.filterByType}</p>
           <div className="mt-3 flex flex-wrap gap-2">
             <button
               aria-pressed={allTypesSelected}
@@ -59,7 +105,7 @@ export function ExerciseCatalogBrowser({ exercises }) {
               onClick={() => setSelectedTypes(types)}
               type="button"
             >
-              All
+              {ADMIN_STRINGS.filterAll}
             </button>
             {types.map((type) => {
               const isSelected = selectedTypeSet.has(type);
@@ -78,8 +124,36 @@ export function ExerciseCatalogBrowser({ exercises }) {
           </div>
         </div>
 
+        <div className="mt-5">
+          <p className="text-sm font-medium text-gray-700">{ADMIN_STRINGS.filterByEquipment}</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              aria-pressed={allEquipmentSelected}
+              className={filterButtonClassName(allEquipmentSelected)}
+              onClick={() => setSelectedEquipment(equipmentOptions)}
+              type="button"
+            >
+              {ADMIN_STRINGS.filterAll}
+            </button>
+            {equipmentOptions.map((option) => {
+              const isSelected = selectedEquipmentSet.has(option);
+              return (
+                <button
+                  aria-pressed={isSelected}
+                  className={filterButtonClassName(isSelected)}
+                  key={option}
+                  onClick={() => toggleEquipment(option)}
+                  type="button"
+                >
+                  {equipmentChipLabel(option)}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
         <p className="mt-4 text-sm text-gray-500">
-          Showing {results.length} of {exercises.length} exercises
+          {ADMIN_STRINGS.showingExercises(results.length, exercises.length)}
         </p>
       </section>
 
@@ -96,15 +170,18 @@ export function ExerciseCatalogBrowser({ exercises }) {
                   <div>
                     <h2 className="font-semibold text-gray-950">{exercise.name}</h2>
                     <p className="mt-1 text-sm text-gray-600">
-                      {[exercise.measurement, exercise.type].filter(Boolean).join(" · ") ||
-                        "No metadata"}
+                      {[exercise.measurement, exercise.type, equipmentLabel(exercise.equipment)]
+                        .filter(Boolean)
+                        .join(" · ") || ADMIN_STRINGS.noMetadata}
                     </p>
                     {matchedAlias ? (
-                      <p className="mt-1 text-sm text-gray-500">Matched alias: {matchedAlias}</p>
+                      <p className="mt-1 text-sm text-gray-500">
+                        {ADMIN_STRINGS.matchedAlias(matchedAlias)}
+                      </p>
                     ) : null}
                   </div>
                   <span className="shrink-0 text-sm text-gray-500">
-                    {exercise.aliases.length} aliases
+                    {ADMIN_STRINGS.aliasCount(exercise.aliases.length)}
                   </span>
                 </div>
               </Link>
@@ -112,15 +189,23 @@ export function ExerciseCatalogBrowser({ exercises }) {
           </div>
         ) : (
           <div className="p-8 text-center">
-            <h2 className="text-base font-semibold text-gray-950">No matching exercises</h2>
-            <p className="mt-2 text-sm text-gray-600">
-              Try a different title, alias, or type selection.
-            </p>
+            <h2 className="text-base font-semibold text-gray-950">
+              {ADMIN_STRINGS.noMatchingExercises}
+            </h2>
+            <p className="mt-2 text-sm text-gray-600">{ADMIN_STRINGS.noMatchingExercisesHint}</p>
           </div>
         )}
       </div>
     </div>
   );
+}
+
+function sortEquipmentSelection(selection) {
+  return [...selection].sort((first, second) => {
+    if (first === EQUIPMENT_FILTER_NONE) return -1;
+    if (second === EQUIPMENT_FILTER_NONE) return 1;
+    return first.localeCompare(second);
+  });
 }
 
 function filterButtonClassName(isSelected) {
@@ -129,12 +214,22 @@ function filterButtonClassName(isSelected) {
   return `${base} border border-gray-300 text-gray-700 hover:bg-gray-50`;
 }
 
-function filterExercises(exercises, query, selectedTypeSet, allTypesSelected) {
+function filterExercises(
+  exercises,
+  query,
+  selectedTypeSet,
+  allTypesSelected,
+  selectedEquipmentSet,
+  allEquipmentSelected,
+) {
   const tokens = tokenize(query);
 
   return exercises
     .map((exercise, index) => {
       if (!allTypesSelected && !selectedTypeSet.has(exercise.type)) return null;
+
+      const equipmentKey = exerciseEquipmentFilterKey(exercise.equipment);
+      if (!allEquipmentSelected && !selectedEquipmentSet.has(equipmentKey)) return null;
 
       const match = scoreExercise(exercise, tokens);
       if (!match) return null;

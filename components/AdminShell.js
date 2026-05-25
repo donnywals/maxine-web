@@ -1,9 +1,14 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { logoutAction } from "../app/admin/actions";
+import { AdminToast } from "./AdminToast";
 
 export function AdminShell({ user, children }) {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Suspense fallback={null}>
+        <AdminToast />
+      </Suspense>
       <header className="border-b border-gray-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
           <Link className="flex items-center gap-2 font-semibold text-gray-950" href="/admin">

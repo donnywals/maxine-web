@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { adminRedirect } from "../../lib/admin-toast";
 import { canManageOwnerRole, login, logout, requireOwner, requireUser } from "../../lib/auth";
 import {
   createUser,
@@ -38,7 +39,7 @@ export async function createPlanAction(formData) {
   const user = await requireUser();
   const id = createPlanForUser(user.id, planInputFromForm(formData));
   revalidatePath("/admin");
-  redirect(`/admin/plans/${id}`);
+  adminRedirect(`/admin/plans/${id}`, "plan_created");
 }
 
 export async function updatePlanAction(planId, formData) {
@@ -47,14 +48,14 @@ export async function updatePlanAction(planId, formData) {
   revalidatePath("/admin");
   revalidatePath(`/admin/plans/${planId}`);
   revalidatePath(`/plans/${planId}`);
-  redirect(`/admin/plans/${planId}`);
+  adminRedirect(`/admin/plans/${planId}`, "plan_saved");
 }
 
 export async function deletePlanAction(planId) {
   const user = await requireUser();
   deletePlanForUser(planId, user.id);
   revalidatePath("/admin");
-  redirect("/admin");
+  adminRedirect("/admin", "plan_deleted");
 }
 
 export async function saveExerciseAction(formData) {
@@ -80,7 +81,7 @@ export async function saveExerciseAction(formData) {
     revalidatePath("/admin/exercises");
     revalidatePath(`/admin/exercises/${id}`);
     revalidatePath("/defaults202603.json");
-    redirect(`/admin/exercises/${id}`);
+    adminRedirect(`/admin/exercises/${id}`, "exercise_saved");
   } catch (error) {
     if (error?.message !== "Invalid equipment") throw error;
 
@@ -96,7 +97,7 @@ export async function deleteExerciseAction(exerciseId) {
   deleteExercise(exerciseId);
   revalidatePath("/admin/exercises");
   revalidatePath("/defaults202603.json");
-  redirect("/admin/exercises");
+  adminRedirect("/admin/exercises", "exercise_deleted");
 }
 
 export async function createUserAction(formData) {
@@ -115,7 +116,7 @@ export async function createUserAction(formData) {
   }
 
   revalidatePath("/admin/users");
-  redirect(`/admin/users/${id}`);
+  adminRedirect(`/admin/users/${id}`, "user_created");
 }
 
 export async function updateUserAction(userId, formData) {
@@ -138,7 +139,7 @@ export async function updateUserAction(userId, formData) {
 
   revalidatePath("/admin/users");
   revalidatePath(`/admin/users/${userId}`);
-  redirect(`/admin/users/${userId}`);
+  adminRedirect(`/admin/users/${userId}`, "user_saved");
 }
 
 export async function assertOwnsPlan(planId) {

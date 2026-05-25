@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { appendToastQuery } from "../../../../../lib/admin-toast";
 import { currentUser } from "../../../../../lib/auth";
 import { createPlanForUser } from "../../../../../lib/db";
 import { getTemplatePlanInput } from "../../../../../lib/templates";
@@ -16,5 +17,6 @@ export async function POST(_request, { params }) {
   }
 
   const planId = createPlanForUser(user.id, template);
-  return NextResponse.redirect(new URL(`/admin/plans/${planId}`, _request.url));
+  const redirectPath = appendToastQuery(`/admin/plans/${planId}`, "plan_created");
+  return NextResponse.redirect(new URL(redirectPath, _request.url));
 }

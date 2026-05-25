@@ -54,7 +54,7 @@ export function ExerciseForm({ exercise, error }) {
             id="equipment"
             name="equipment"
           >
-            <option value="">None</option>
+            <option value="">{equipmentLabel(null)}</option>
             {EXERCISE_EQUIPMENT.map((value) => (
               <option key={value} value={value}>
                 {equipmentLabel(value)}
