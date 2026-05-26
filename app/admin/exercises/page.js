@@ -20,7 +20,7 @@ export default async function ExercisesPage() {
             Exercise catalog
           </h1>
           <p className="mt-2 text-gray-600">
-            Owner-only list imported from defaults202603.json and served from SQLite.
+            Owner-only catalog stored in SQLite and exported at /defaults202603.json.
           </p>
         </div>
         <Link
