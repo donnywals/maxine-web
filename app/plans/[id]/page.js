@@ -2,7 +2,6 @@ import { notFound, redirect } from "next/navigation";
 import { PublicFooter } from "../../../components/PublicFooter";
 import { PublicHeader } from "../../../components/PublicHeader";
 import { getPublicPlanByIdentifier, isAppSharedPlan } from "../../../lib/db";
-import { formatPerformedSets } from "../../../lib/plan-json";
 
 const APP_STORE_URL =
   "https://apps.apple.com/nl/app/maxine-one-rep-max-tracker/id6615073254";
@@ -74,7 +73,7 @@ export default async function PublicPlanPage({ params }) {
                 {index + 1}. {workout.name}
               </h2>
               <div className="mt-5 overflow-hidden rounded-2xl ring-1 ring-white/10">
-                <table className="w-full divide-y divide-white/10 text-left text-sm">
+                <table className="w-full text-left text-sm">
                   <thead className="bg-white/5 text-white/70">
                     <tr>
                       <th className="px-4 py-3 font-semibold">Exercise</th>
@@ -84,37 +83,13 @@ export default async function PublicPlanPage({ params }) {
                       <th className="px-4 py-3 font-semibold">Duration</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-white/10">
-                    {workout.exercises.map((exercise) => {
-                      const mixedSets = (exercise.performedSets || []).length > 1;
-                      return (
-                      <tr key={exercise.id}>
-                        <td className="px-4 py-3">
-                          <p className="font-semibold text-white">{exercise.exercise_name}</p>
-                          {exercise.type || exercise.measurement ? (
-                            <p className="mt-1 text-xs text-white/60">
-                              {[exercise.measurement, exercise.type].filter(Boolean).join(" · ")}
-                            </p>
-                          ) : null}
-                        </td>
-                        {mixedSets ? (
-                          <td className="px-4 py-3 text-white/80" colSpan={4}>
-                            {formatPerformedSets(exercise.performedSets)}
-                          </td>
-                        ) : (
-                          <>
-                            <td className="px-4 py-3 text-white/80">{exercise.sets ?? "-"}</td>
-                            <td className="px-4 py-3 text-white/80">{exercise.reps ?? "-"}</td>
-                            <td className="px-4 py-3 text-white/80">{exercise.weight ?? "-"}</td>
-                            <td className="px-4 py-3 text-white/80">
-                              {exercise.duration ? `${exercise.duration}s` : "-"}
-                            </td>
-                          </>
-                        )}
-                      </tr>
-                      );
-                    })}
-                  </tbody>
+                  {workout.exercises.map((exercise, exerciseIndex) => (
+                    <ExerciseSetRows
+                      exercise={exercise}
+                      key={exercise.id}
+                      showDivider={exerciseIndex > 0}
+                    />
+                  ))}
                 </table>
               </div>
             </section>
@@ -125,6 +100,54 @@ export default async function PublicPlanPage({ params }) {
       </main>
       <PublicFooter />
     </>
+  );
+}
+
+function ExerciseSetRows({ exercise, showDivider }) {
+  const rows = exercise.performedSets?.length
+    ? exercise.performedSets
+    : [
+        {
+          sets: exercise.sets,
+          reps: exercise.reps,
+          weight: exercise.weight,
+          duration: exercise.duration,
+        },
+      ];
+
+  return (
+    <tbody className={showDivider ? "border-t border-white/10" : undefined}>
+      {rows.map((row, index) => {
+        const isFirst = index === 0;
+        const isLast = index === rows.length - 1;
+        const cellPad = `px-4 ${isFirst ? "pt-3" : "pt-1.5"} ${isLast ? "pb-3" : "pb-1.5"}`;
+
+        return (
+          <tr key={`${exercise.id}-${index}`}>
+            <td className={cellPad}>
+              {isFirst ? (
+                <>
+                  <p className="font-semibold text-white">{exercise.exercise_name}</p>
+                  {exercise.type || exercise.measurement ? (
+                    <p className="mt-1 text-xs text-white/60">
+                      {[exercise.measurement, exercise.type].filter(Boolean).join(" · ")}
+                    </p>
+                  ) : null}
+                </>
+              ) : (
+                <p className="tabular-nums text-white/70">{row.weight ?? "-"}</p>
+              )}
+            </td>
+            <td className={`${cellPad} tabular-nums text-white/80`}>{row.sets ?? "-"}</td>
+            <td className={`${cellPad} tabular-nums text-white/80`}>{row.reps ?? "-"}</td>
+            <td className={`${cellPad} tabular-nums text-white/80`}>{row.weight ?? "-"}</td>
+            <td className={`${cellPad} tabular-nums text-white/80`}>
+              {row.duration != null ? `${row.duration}s` : "-"}
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
   );
 }
 
