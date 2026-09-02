@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { AdminShell } from "../../components/AdminShell";
 import { requireUser } from "../../lib/auth";
-import { listPlansForUser } from "../../lib/db";
+import { listAppSharedPlans, listPlansForUser } from "../../lib/db";
 import { getPlanTemplates } from "../../lib/templates";
+import { deletePlanAction } from "./actions";
 
 export const metadata = {
   title: "Admin",
@@ -12,6 +13,7 @@ export default async function AdminPage() {
   const user = await requireUser();
   const plans = listPlansForUser(user.id);
   const templates = getPlanTemplates();
+  const sharedPlans = user.role === "owner" ? listAppSharedPlans() : [];
 
   return (
     <AdminShell user={user}>
@@ -21,7 +23,8 @@ export default async function AdminPage() {
             Workout plans
           </h1>
           <p className="mt-2 text-gray-600">
-            Signed in as {user.username}. You can only see and edit plans you created.
+            Signed in as {user.username}. You can only see and edit plans you created
+            {user.role === "owner" ? ", plus plans shared from the Maxine app" : ""}.
           </p>
         </div>
         <Link
@@ -77,6 +80,42 @@ export default async function AdminPage() {
           </div>
         )}
       </section>
+
+      {user.role === "owner" ? (
+        <section className="mt-8 overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-gray-200">
+          <div className="border-b border-gray-200 px-6 py-4">
+            <h2 className="text-lg font-semibold text-gray-950">Shared from the Maxine app</h2>
+            <p className="mt-1 text-sm text-gray-600">
+              Public plans posted by the app. Anyone with the share link can open them.
+            </p>
+          </div>
+          {sharedPlans.length === 0 ? (
+            <p className="p-6 text-gray-600">No app-shared plans yet.</p>
+          ) : (
+            <div className="divide-y divide-gray-200">
+              {sharedPlans.map((plan) => (
+                <div className="flex items-center justify-between gap-4 p-6" key={plan.id}>
+                  <div>
+                    <h3 className="font-semibold text-gray-950">{plan.title}</h3>
+                    <p className="mt-1 text-sm text-gray-600">{plan.goal || "No goal set"}</p>
+                    <Link
+                      className="mt-2 inline-block text-sm font-semibold text-[#491964]"
+                      href={`/plans/${plan.slug}`}
+                    >
+                      View public page
+                    </Link>
+                  </div>
+                  <form action={deletePlanAction.bind(null, plan.id)}>
+                    <button className="rounded-full border border-red-200 px-4 py-2 text-sm font-semibold text-red-700 hover:bg-red-50">
+                      Delete
+                    </button>
+                  </form>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      ) : null}
     </AdminShell>
   );
 }

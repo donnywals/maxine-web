@@ -8,6 +8,7 @@ import {
   createUser,
   createPlanForUser,
   deleteExercise,
+  deletePlan,
   deletePlanForUser,
   getUser,
   getPlan,
@@ -53,7 +54,11 @@ export async function updatePlanAction(planId, formData) {
 
 export async function deletePlanAction(planId) {
   const user = await requireUser();
-  deletePlanForUser(planId, user.id);
+  if (user.role === "owner") {
+    deletePlan(planId);
+  } else {
+    deletePlanForUser(planId, user.id);
+  }
   revalidatePath("/admin");
   adminRedirect("/admin", "plan_deleted");
 }

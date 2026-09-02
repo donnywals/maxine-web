@@ -1,7 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import { PublicFooter } from "../../../components/PublicFooter";
 import { PublicHeader } from "../../../components/PublicHeader";
-import { getPublicPlanByIdentifier } from "../../../lib/db";
+import { getPublicPlanByIdentifier, isAppSharedPlan } from "../../../lib/db";
 
 const APP_STORE_URL =
   "https://apps.apple.com/nl/app/maxine-one-rep-max-tracker/id6615073254";
@@ -17,7 +17,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: plan.title,
-    description: plan.description || `Workout plan by ${plan.owner_username}`,
+    description: plan.description || (isAppSharedPlan(plan)
+      ? "Shared workout plan from Maxine"
+      : `Workout plan by ${plan.owner_username}`),
     alternates: {
       canonical: `https://maxine-app.com/plans/${plan.slug}`,
     },
@@ -52,7 +54,8 @@ export default async function PublicPlanPage({ params }) {
           {plan.title}
         </h1>
         <p className="mt-3 text-white/70">
-          {plan.goal || "Workout plan"} by {plan.owner_username}
+          {plan.goal || "Workout plan"}
+          {isAppSharedPlan(plan) ? " · Shared from Maxine" : ` by ${plan.owner_username}`}
         </p>
         {plan.description ? (
           <p className="mt-6 max-w-3xl text-lg text-white/80">{plan.description}</p>
