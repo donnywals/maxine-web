@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { formatPerformedSets } from "../lib/plan-json";
 
 function emptyExercise() {
   return {
@@ -10,6 +11,7 @@ function emptyExercise() {
     reps: "",
     weight: "",
     duration: "",
+    performedSets: [],
   };
 }
 
@@ -33,6 +35,7 @@ export function PlanEditor({ action, plan, exercises }) {
                 reps: exercise.reps ?? "",
                 weight: exercise.weight ?? "",
                 duration: exercise.duration ?? "",
+                performedSets: exercise.performedSets || [],
               }))
             : [emptyExercise()],
         }))
@@ -151,6 +154,7 @@ export function PlanEditor({ action, plan, exercises }) {
               const visibleFields = prescriptionFieldsFor(
                 selectedExercise?.measurement,
               );
+              const mixedSets = (exercise.performedSets || []).length > 1;
 
               return (
                 <div
@@ -158,6 +162,13 @@ export function PlanEditor({ action, plan, exercises }) {
                   key={`${workoutIndex}-${exerciseIndex}`}
                 >
                   <input name="workout_index" type="hidden" value={workoutIndex} />
+                  <input
+                    name="performed_sets"
+                    type="hidden"
+                    value={
+                      mixedSets ? JSON.stringify(exercise.performedSets) : ""
+                    }
+                  />
                   <div className="grid gap-4 lg:grid-cols-6">
                     <div className="lg:col-span-2">
                       <label className="block text-xs font-medium text-gray-600">
@@ -189,44 +200,87 @@ export function PlanEditor({ action, plan, exercises }) {
                         value={selectedExercise?.name || exercise.exercise_name}
                       />
                     </div>
-                    <PrescriptionField
-                      exercise={exercise}
-                      label="Sets"
-                      name="sets"
-                      onChange={(value) =>
-                        updateExercise(workoutIndex, exerciseIndex, { sets: value })
-                      }
-                      visible={visibleFields.has("sets")}
-                    />
-                    <PrescriptionField
-                      exercise={exercise}
-                      label="Reps"
-                      name="reps"
-                      onChange={(value) =>
-                        updateExercise(workoutIndex, exerciseIndex, { reps: value })
-                      }
-                      visible={visibleFields.has("reps")}
-                    />
-                    <PrescriptionField
-                      exercise={exercise}
-                      label="Weight"
-                      name="weight"
-                      onChange={(value) =>
-                        updateExercise(workoutIndex, exerciseIndex, { weight: value })
-                      }
-                      visible={visibleFields.has("weight")}
-                    />
-                    <PrescriptionField
-                      exercise={exercise}
-                      label="Duration (sec)"
-                      name="duration"
-                      onChange={(value) =>
-                        updateExercise(workoutIndex, exerciseIndex, {
-                          duration: value,
-                        })
-                      }
-                      visible={visibleFields.has("duration")}
-                    />
+                    {mixedSets ? (
+                      <div className="lg:col-span-4">
+                        <p className="text-xs font-medium text-gray-600">Prescription</p>
+                        <p className="mt-2 text-sm text-gray-800">
+                          {formatPerformedSets(exercise.performedSets)}
+                        </p>
+                        <PrescriptionField
+                          exercise={exercise}
+                          hidden
+                          label="Sets"
+                          name="sets"
+                          onChange={() => {}}
+                          visible
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          hidden
+                          label="Reps"
+                          name="reps"
+                          onChange={() => {}}
+                          visible
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          hidden
+                          label="Weight"
+                          name="weight"
+                          onChange={() => {}}
+                          visible
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          hidden
+                          label="Duration (sec)"
+                          name="duration"
+                          onChange={() => {}}
+                          visible
+                        />
+                      </div>
+                    ) : (
+                      <>
+                        <PrescriptionField
+                          exercise={exercise}
+                          label="Sets"
+                          name="sets"
+                          onChange={(value) =>
+                            updateExercise(workoutIndex, exerciseIndex, { sets: value })
+                          }
+                          visible={visibleFields.has("sets")}
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          label="Reps"
+                          name="reps"
+                          onChange={(value) =>
+                            updateExercise(workoutIndex, exerciseIndex, { reps: value })
+                          }
+                          visible={visibleFields.has("reps")}
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          label="Weight"
+                          name="weight"
+                          onChange={(value) =>
+                            updateExercise(workoutIndex, exerciseIndex, { weight: value })
+                          }
+                          visible={visibleFields.has("weight")}
+                        />
+                        <PrescriptionField
+                          exercise={exercise}
+                          label="Duration (sec)"
+                          name="duration"
+                          onChange={(value) =>
+                            updateExercise(workoutIndex, exerciseIndex, {
+                              duration: value,
+                            })
+                          }
+                          visible={visibleFields.has("duration")}
+                        />
+                      </>
+                    )}
                   </div>
                   <button
                     className="mt-3 text-sm font-semibold text-red-700 hover:text-red-900"
@@ -300,7 +354,11 @@ function prescriptionFieldsFor(measurement) {
   return new Set(["sets", "reps", "weight", "duration"]);
 }
 
-function PrescriptionField({ exercise, label, name, visible, onChange }) {
+function PrescriptionField({ exercise, label, name, visible, onChange, hidden = false }) {
+  if (hidden) {
+    return <input name={name} type="hidden" value={exercise[name] ?? ""} />;
+  }
+
   if (!visible) {
     return <input name={name} type="hidden" value="" />;
   }

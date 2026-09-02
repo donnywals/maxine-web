@@ -2,6 +2,7 @@ import { notFound, redirect } from "next/navigation";
 import { PublicFooter } from "../../../components/PublicFooter";
 import { PublicHeader } from "../../../components/PublicHeader";
 import { getPublicPlanByIdentifier, isAppSharedPlan } from "../../../lib/db";
+import { formatPerformedSets } from "../../../lib/plan-json";
 
 const APP_STORE_URL =
   "https://apps.apple.com/nl/app/maxine-one-rep-max-tracker/id6615073254";
@@ -84,7 +85,9 @@ export default async function PublicPlanPage({ params }) {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-white/10">
-                    {workout.exercises.map((exercise) => (
+                    {workout.exercises.map((exercise) => {
+                      const mixedSets = (exercise.performedSets || []).length > 1;
+                      return (
                       <tr key={exercise.id}>
                         <td className="px-4 py-3">
                           <p className="font-semibold text-white">{exercise.exercise_name}</p>
@@ -94,14 +97,23 @@ export default async function PublicPlanPage({ params }) {
                             </p>
                           ) : null}
                         </td>
-                        <td className="px-4 py-3 text-white/80">{exercise.sets ?? "-"}</td>
-                        <td className="px-4 py-3 text-white/80">{exercise.reps ?? "-"}</td>
-                        <td className="px-4 py-3 text-white/80">{exercise.weight ?? "-"}</td>
-                        <td className="px-4 py-3 text-white/80">
-                          {exercise.duration ? `${exercise.duration}s` : "-"}
-                        </td>
+                        {mixedSets ? (
+                          <td className="px-4 py-3 text-white/80" colSpan={4}>
+                            {formatPerformedSets(exercise.performedSets)}
+                          </td>
+                        ) : (
+                          <>
+                            <td className="px-4 py-3 text-white/80">{exercise.sets ?? "-"}</td>
+                            <td className="px-4 py-3 text-white/80">{exercise.reps ?? "-"}</td>
+                            <td className="px-4 py-3 text-white/80">{exercise.weight ?? "-"}</td>
+                            <td className="px-4 py-3 text-white/80">
+                              {exercise.duration ? `${exercise.duration}s` : "-"}
+                            </td>
+                          </>
+                        )}
                       </tr>
-                    ))}
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>
