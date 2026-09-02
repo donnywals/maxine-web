@@ -73,14 +73,14 @@ export default async function PublicPlanPage({ params }) {
                 {index + 1}. {workout.name}
               </h2>
               <div className="mt-5 overflow-hidden rounded-2xl ring-1 ring-white/10">
-                <table className="w-full text-left text-sm">
+                <table className="w-full table-fixed text-left text-sm">
                   <thead className="bg-white/5 text-white/70">
                     <tr>
-                      <th className="px-4 py-3 font-semibold">Exercise</th>
-                      <th className="px-4 py-3 font-semibold">Sets</th>
-                      <th className="px-4 py-3 font-semibold">Reps</th>
-                      <th className="px-4 py-3 font-semibold">Weight</th>
-                      <th className="px-4 py-3 font-semibold">Duration</th>
+                      <th className="w-[40%] px-4 py-3 font-semibold">Exercise</th>
+                      <th className="w-[15%] px-4 py-3 font-semibold">Sets</th>
+                      <th className="w-[15%] px-4 py-3 font-semibold">Reps</th>
+                      <th className="w-[15%] px-4 py-3 font-semibold">Weight</th>
+                      <th className="w-[15%] px-4 py-3 font-semibold">Duration</th>
                     </tr>
                   </thead>
                   {workout.exercises.map((exercise, exerciseIndex) => (
@@ -134,9 +134,7 @@ function ExerciseSetRows({ exercise, showDivider }) {
                     </p>
                   ) : null}
                 </>
-              ) : (
-                <p className="tabular-nums text-white/70">{row.weight ?? "-"}</p>
-              )}
+              ) : null}
             </td>
             <td className={`${cellPad} tabular-nums text-white/80`}>{row.sets ?? "-"}</td>
             <td className={`${cellPad} tabular-nums text-white/80`}>{row.reps ?? "-"}</td>
